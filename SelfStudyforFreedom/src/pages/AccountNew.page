@@ -10,7 +10,7 @@
     var lookupType = baseURL.substr(baseURL.length-3, 4);
     if (modified == '1') baseURL = baseURL + searchParam;
  
-    var isCustomLookup = true;
+    var isCustomLookup = false;
  
     // Following "001" is the lookup type for Account object so change this as per your standard or custom object
     if(lookupType == "a23"){
