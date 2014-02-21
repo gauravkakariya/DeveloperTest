@@ -7,7 +7,7 @@
     var originalmodified = modified;
     var originalsearchParam = searchParam;
     
-    var lookupType = baseURL.substr(baseURL.length-3, 3);
+    var lookupType = baseURL.substr(baseURL.length-3, 4);
     if (modified == '1') baseURL = baseURL + searchParam;
  
     var isCustomLookup = false;
