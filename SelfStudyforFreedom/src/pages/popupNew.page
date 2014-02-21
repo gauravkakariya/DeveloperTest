@@ -1,0 +1,122 @@
+<apex:page standardcontroller="Opportunity" extensions="popupNew"  >
+<!--  <apex:stylesheet value="{!URLFOR($Resource.style_resources,'style_resources.css')}"/>-->
+ 
+ <style type="text/css">
+        .custPopup{
+            background-color: white;
+            border-width: 2px;
+            border-style: solid;
+            z-index: 9999;
+            left: 50%;
+            padding:10px;
+            position: fixed;
+            /* These are the 3 css properties you will need to change so the popup 
+            displays in the center of the screen. First set the width. Then set 
+            margin-left to negative half of what the width is. You can add 
+            the height property for a fixed size pop up if you want.*/
+            width: 500px;
+            margin-left: -250px;
+            top:100px;
+        }
+        .popupBackground{
+            background-color:black;
+            opacity: 0.20;
+            filter: alpha(opacity = 2);
+            position: fixed; 
+/*             width: 100%; */
+/*             height: 100%; */
+            top: 0;
+            left: 0;
+            z-index: 9000;
+            cursor: inherit;
+            h
+        }
+
+    </style>
+<apex:form >
+<!--<apex:pageBlock title="Select from the following">
+     <apex:commandButton value="New Opportunity" onClick="window.open('/apex/AddProd');"/>
+    
+    <apex:commandButton value=" Mass Update Products" onClick="window.open('/apex/AllProdUpdate');"/> 
+    
+</apex:pageBlock>-->
+<apex:pageBlock title="List of all Opportunities" >
+<h2>Here are all the opportunities created till date  !!!! </h2>
+<h1>Click on view quote to see its associated quotes</h1>
+    
+
+<apex:pageBlockTable value="{!opportunity}" var="opp" border="1">
+    <apex:column >
+    <apex:outputLink value="{!Link}/{!opp.Id}">{!opp.Name} </apex:outputLink>
+    </apex:column>
+    <apex:column value="{!opp.Type}"/>
+    <apex:column value="{!opp.Description}"/>
+    
+    
+    <apex:column ><apex:commandLink value="View Quote" action="{!doNothing}" rerender="tstpopup"><apex:param name="paramOppid" value="{!opp.Id}" /></apex:commandLink></apex:column>
+    
+</apex:pageBlockTable>
+
+</apex:pageBlock>
+
+
+ <apex:outputPanel id="tstpopup">
+             <apex:outputPanel styleClass="popupBackground" layout="block" rendered="{!displayPopUp}"/>
+            <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!displayPopUp}">
+                Details of the associated Quote
+                <apex:outputPanel id="t2" rendered="{!displayPopUp}" >
+                <apex:pageBlock >
+                <apex:iframe src="/apex/popupNew" scrolling="false" id="theIframe"/>
+<!--                 <apex:pageBlockTable value="{!quotes}" var="qu" border="1"> -->
+<!--                     <apex:column > -->
+<!--                         <apex:outputLink value="{!Link}/{!qu.Id}">{!qu.Name} </apex:outputLink> -->
+<!--                         </apex:column> -->
+<!--                         <apex:column value="{!qu.QuoteNumber}"/> -->
+<!--                         <apex:column value="{!qu.Phone}"/> -->
+                        
+<!--                         </apex:pageBlockTable> -->
+                </apex:pageBlock>
+                </apex:outputPanel>
+                <br/><br/><br/>
+                <apex:commandButton value="Hide Pop up" action="{!closePopup}" />
+            </apex:outputPanel>
+ </apex:outputPanel>
+ 
+  <!--  
+ <apex:outputPanel id="tstpopup2">
+             <apex:outputPanel styleClass="popupBackground" layout="block" rendered="{!displayPopUp}"/>
+            <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!displayPopUp}">
+                Details of the associated Quote
+                <apex:outputPanel id="t3" rendered="{!displayPopUp}" >
+                <apex:pageBlock >
+                <apex:pageBlockTable value="{!quotesitem}" var="qu" border="1">
+                    <apex:column value="{!qu.PriceBookEntry.Product2.Name}"/>
+                    <apex:column value="{!qu.Quantity}"/>
+                    <apex:column value="{!qu.UnitPrice}"/>
+                        
+                </apex:pageBlockTable>
+                </apex:pageBlock>
+                </apex:outputPanel>
+                <br/><br/><br/>
+                <apex:commandButton value="Hide Pop up" action="{!closePopup}" />
+            </apex:outputPanel>
+ </apex:outputPanel>
+ 
+  -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+</apex:form>
+
+ 
+</apex:page>

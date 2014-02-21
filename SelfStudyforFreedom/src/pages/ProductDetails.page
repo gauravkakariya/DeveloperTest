@@ -1,0 +1,53 @@
+<apex:page standardController="Product2" extensions="ProductDisplay">
+
+<apex:form >
+<apex:pageBlock >
+<apex:pageBlockSection >
+  		
+	  <apex:pageBlockSectionItem >
+		<apex:pageBlock >
+	     	<apex:selectList id="test" value="{!prodView}" size="1">
+     	  	<apex:actionSupport event="onchange" rerender="list"/>
+     	  	 <apex:outputLabel value="Recent Product: " />
+     	  	<apex:selectOption itemValue="RecentlyModified" itemLabel="Recently Modified" />
+     	  		
+     	  	
+     	  	</apex:selectList>
+     	  	 	<apex:commandButton value="Go"  action="{!Search}"/>
+     	  	</apex:pageBlock>
+     	  	 	
+	  </apex:pageBlockSectionItem>
+	 
+	  
+	  <apex:pageBlock >
+	  <apex:commandButton value="New Product"  onclick="window.open('/apex/AddProductDetails');"/>
+	<!--    <apex:outputLink value="{!$Page.AddProductDetails}">New Product</apex:outputLink>	-->
+	  <apex:commandButton value="Mass Update"  onclick="window.open('/apex/ProductDetailsEdit');"/>
+	  </apex:pageBlock>
+</apex:pageBlockSection>		
+ </apex:pageBlock>
+ 
+<br/>
+
+<apex:pageBlock >
+<apex:pageBlockSection columns="1" id="list">
+	<apex:pageBlockTable value="{!lstProduct}" var="product">
+     		<apex:column headerValue="Name">
+			<apex:outputLink value="{!Link}/{!product.Id}">{!product.Name}</apex:outputLink>
+		</apex:column>	 
+		<apex:column headerValue="Product Code" value="{!product.ProductCode}"/>
+            <apex:column headerValue="Product Description" value="{!product.Description}"/>
+            <apex:column headerValue="Active" value="{!product.IsActive}"/>
+            <apex:column headerValue="Family" value="{!product.Family}"/>
+                                  
+      </apex:pageBlockTable>
+</apex:pageBlockSection>
+  </apex:pageBlock>	         
+
+
+
+
+
+</apex:form>
+
+</apex:page>

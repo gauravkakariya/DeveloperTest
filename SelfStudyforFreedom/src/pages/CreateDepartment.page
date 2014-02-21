@@ -1,0 +1,4 @@
+<apex:page standardController="Departments__c" extensions="CreateDepartmentController" tabStyle="Departments__c" showheader="true" action="{!redirect}" > 
+
+
+</apex:page>

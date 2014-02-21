@@ -1,0 +1,81 @@
+<apex:page controller="SampleDynamicPage">
+	
+	<apex:includeScript value="{!URLFOR($Resource.jQueryFile, 'js/jquery-1.8.3.js')}" />
+	<apex:includeScript value="{!URLFOR($Resource.jQueryFile, 'js/jquery-1.8.3.min.js')}" />
+
+	<apex:form id="frm">
+		<div id="main"></div>
+	</apex:form>
+
+	<script type="text/javascript">
+		
+		var PARA_BEGIN = '<p>';
+		var PARA_END = '</p>';
+		
+		j$ = jQuery.noConflict();
+        j$(document).ready(function(){
+			//alert('document.ready fired !!');
+        	constructDom();
+        });
+
+		function constructDom(){
+			//alert('In constructdom');
+			//alert('document' + document.getElementById('main').innerHTML);
+			
+			document.getElementById('main').innerHTML = 
+				PARA_BEGIN + getLabel('Sample Label','a') + 
+				getTextbox('text','default') + getButtonbox('button','Submit', 'message();')+PARA_END
+				//getTable('center','1','Month');
+				
+			 SampleDynamicPage.getAccountList(function(result,event)
+		     {
+		        var temp ='';
+		        var phone ='';
+		         for ( var i = 0; i < result.length; i++) {
+				    var r = result[i];
+				    temp = temp +'</br>'+ r.Name;
+				    phone = phone +'</br>'+ r.Phone;
+				   }
+				 //document.getElementById('main').innerHTML = 'Account Records: '+temp;
+				document.getElementById('main').innerHTML = getTable('center','1',temp, phone);
+	      	 	//document.getElementById('test').innerHTML = '<table><tr>'+result[0]+'</tr></br><tr>'+result[1]+'</tr></br><tr>'+result[2]+'</tr></br><tr>'+result[3]+'</tr></table>';
+	     	 });	
+				
+		}
+
+		function getLabel(pLabelText){
+			
+			//var label = '<label value=\"' + pLabelText + '\" for=\"' +pId +'\" \/>';
+			var label = '<label value=\"' + pLabelText + '\">'+pLabelText+'</label>';
+			//alert('In getLabel'+label);
+			return label;
+		}
+
+		function getTextbox(pType, pText){
+		    var textBox = '<input type=\"' + pType + '\" value=\"' + pText + '\"  \/>';
+			//alert('In getTextbox'+textBox);
+			return textBox;
+		}	
+		
+		function getButtonbox(pType, pText, pFunction){
+		    var textBox = '<input type=\"' + pType + '\" value=\"' + pText + '\" onClick=\"'+pFunction+ '\" \/>';
+			
+			return textBox;
+		}	
+		
+		function getTable(pAlign,pBorder,pAccountName, pPhone){
+		    var table = '<Table align=\"' + pAlign + '\" + border= \"' +pBorder+ '\"  >'+
+		    				'<tr>'+'<th>'+'Account Name'+'</th>'+'<th>'+'Phone'+'</th>'+'</tr>'+
+		    				'<tr>'+'<th>'+pAccountName+'</th>'+'<th>'+pPhone+'</th>'+'</tr>'+
+		    			 '</Table>';
+			
+			return table;
+		}	
+		
+
+		function message(){
+			alert('Hi');
+		}
+	</script>
+
+</apex:page>

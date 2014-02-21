@@ -1,0 +1,8 @@
+ WARN [2014-02-20 14:57:48,372] (IntroEditorInput.java:loadDocument:130) - org.xml.sax.SAXParseException: The entity name must immediately follow the '&' in the entity reference.
+ WARN [2014-02-20 15:02:59,800] (ComponentFactory.java:getComponentBean:1145) - Unable to get component for id 'FlexiPage': Unable to get bean for id 'FlexiPage'
+ WARN [2014-02-20 15:02:59,827] (ComponentFactory.java:getComponentBean:1145) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2014-02-20 15:03:00,942] (ComponentFactory.java:getComponentBean:1145) - Unable to get component for id 'FlexiPage': Unable to get bean for id 'FlexiPage'
+ WARN [2014-02-20 15:03:00,955] (ComponentFactory.java:getComponentBean:1145) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2014-02-20 20:49:53,567] (ConnectionFactory.java:clearCache:212) - Clearing the following cached connections
+ WARN [2014-02-20 20:49:53,691] (DescribeObjectRegistry.java:clearCache:657) - Clearing cached describes
+ WARN [2014-02-20 20:49:53,717] (MetadataFactory.java:clearCache:123) - Clearing the following cached metadata stubs

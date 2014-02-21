@@ -1,0 +1,88 @@
+<apex:page standardController="Quote" renderas="pdf">
+
+
+    <apex:form id="theForm"> 
+   
+        <apex:pageBlock >
+            <apex:pageMessages />
+   
+            <apex:pageBlockSection title="Essential Information" columns="2"  showHeader="false">
+                <apex:outputField value="{!quote.Opportunity.AccountId}" />
+                <apex:outputField value="{!quote.quotenumber}" />
+                <apex:outputLabel value="Bill To">
+                    <apex:outputField value="{!quote.Opportunity.Account.BillingCity}" />
+                    <apex:outputField value="{!quote.Opportunity.Account.BillingState}" />
+                    <apex:outputField value="{!quote.Opportunity.Account.BillingPostalCode}" />
+                    <apex:outputField value="{!quote.Opportunity.Account.BillingCountry}" />
+                </apex:outputLabel>
+                <apex:outputField value="{!quote.createdDate}" />
+                <apex:inputHidden />
+                <apex:outputField value="{!quote.expirationDate}" />
+             </apex:pageBlockSection>
+            <apex:pageBlockSection title="Contact Info" columns="2"  showHeader="true">
+                <apex:outputField value="{!quote.contactid}"/>
+                <apex:outputField value="{!quote.Phone}"/>
+                <apex:outputField value="{!quote.email}"/>
+                <apex:outputField value="{!quote.fax}"/>
+             </apex:pageBlockSection>
+             </apex:pageBlock>
+           <apex:pageBlock title="test">
+           
+            <apex:pageBlock >
+    <apex:pageBlockSection columns="2">
+      <apex:dataTable value="{!Quote.QuoteLineItems}" rowClasses="even,odd," var="line" width="630">
+        <apex:column style="text-align:right;" headerClass="header1" headerValue="Item">
+        <apex:facet name="header1">Item</apex:facet>
+        <apex:outputText value="{!line.PriceBookentry.name}" />
+        </apex:column>
+        <apex:column style="text-align:left;
+            border-left-style:solid; border-left-color:black;
+            border-left-width:.25px;"  headerClass="header" headerValue="Product">
+        <apex:facet name="header">Product</apex:facet>
+        <apex:outputText value="{!line.PriceBookentry.name}" />
+        </apex:column>        
+        <apex:column style="text-align:right;
+            border-left-style:solid; border-left-color:black;
+            border-left-width:.25px;" headerClass="header2" headerValue="Quantity">
+        <apex:facet name="header">Quantity</apex:facet>
+        <apex:outputText value="{!line.Quantity}"/>
+        </apex:column>
+    <apex:column style="text-align:right;
+            border-left-style:solid; border-left-color:black;
+            border-left-width:.25px;" headerClass="header2" headerValue="Price Each">
+        <apex:facet name="header">Price Each</apex:facet>
+        <apex:outputText value="{!line.ListPrice}"/>
+        </apex:column>
+        
+        <apex:column style="text-align:right;
+            border-left-style:solid; border-left-color:black;
+            border-left-width:.25px;" headerClass="header2" headerValue="Price Each">
+        <apex:facet name="header">Discount</apex:facet>
+        <apex:outputText value="{!line.Discount}"/>
+        </apex:column> 
+    <apex:column style="text-align:right;
+            border-left-style:solid; border-left-color:black;
+            border-left-width:.25px;" headerClass="header2" headerValue="Price Each">
+        <apex:facet name="header">SubTotal</apex:facet>
+        <apex:outputText value="{!line.Subtotal}"/>
+        </apex:column>        
+      </apex:dataTable>
+      </apex:pageBlockSection>
+   </apex:pageBlock>	
+           
+          
+    
+
+       <!--     
+        <apex:pageBlockTable value="{!quote.QuoteLineItems}" var="qli">
+        <apex:dataTable value="{!qli}" var="item">
+           <apex:column value="{!qli.pricebookentry.Name}"/>
+            <apex:column value="{!qli.Quantity}"/>
+        </apex:dataTable>
+        </apex:pageBlockTable>-->
+        </apex:pageBlock>    
+
+      </apex:form>
+      
+      
+</apex:page>

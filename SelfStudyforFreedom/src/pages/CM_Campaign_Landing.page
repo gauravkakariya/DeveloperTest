@@ -1,0 +1,128 @@
+<apex:page controller="CmPaging" action="{!Search}">
+    <apex:form >
+        <apex:pageBlock >            
+           
+             <apex:pageBlockSection >
+             <apex:pageBlockSectionItem >
+     <apex:selectList id="test" value="{!view.Name}" size="1">
+                    <apex:actionSupport event="onchange" rerender="pqr,list"/>
+                    <apex:selectOption itemValue="RecentlyModified" itemLabel="Recently Modified" />
+     <apex:selectOption itemValue="AllCampaigns" itemLabel="All Campaigns"/>
+     <apex:selectOption itemValue="AllActiveCampaigns" itemLabel="All Active Campaigns"/>
+     <apex:selectOption itemValue="MyactiveCampaigns" itemLabel="My Active Campaigns"/>
+     <apex:selectOption itemValue="InactiveCampaigns" itemLabel="Inactive Campaigns"/>
+            </apex:selectList>
+            <apex:commandButton value="Go" action="{!Search}"/>
+            </apex:pageBlockSectionItem>
+          </apex:pageBlockSection> 
+                    
+
+        
+            <apex:pageBlockSection columns="1" id="list">
+                <apex:pageBlockTable value="{!Allview}" var="camp">
+                <apex:column headerValue="Name" >
+<apex:outputLink value="{!$Page.CampaignEdit}">
+{!camp.Name}
+<apex:param name="id" value="{!camp.Id}"></apex:param>
+
+</apex:outputLink> 
+</apex:column>
+                 <!--    <apex:column headerValue="Name" value="{!camp.Name}"/>--> 
+                    <apex:column headerValue="Status" value="{!camp.Status}"/>
+                    <apex:column headerValue="Type" value="{!camp.Type}"/>
+                    <apex:column headerValue="Start Date" value="{!camp.StartDate}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+           
+
+      
+                <apex:commandButton value="First" action="{!con.first}"  rendered="{!Con.HasPrevious}" title="First Page"/>&nbsp;
+                  &nbsp;<apex:commandLink action="{!Previous}" title="Previous Page" value="Previous" rendered="{!Con.HasPrevious}"/> &nbsp; 
+                 
+                  <apex:commandLink title="Next Page" value="Next" rendered="{!Con.HasNext}" action="{!Next}"/>&nbsp;
+             <apex:commandButton value="Last" action="{!con.last}" rendered="{!Con.HasNext}" title="Last Page"/>
+                
+                           
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>
+
+
+ <!--  
+<apex:pageBlock title="View Campaigns Management" >
+
+<apex:form id="pqr">
+<apex:selectList size="1" value="{!view}" multiselect="false">
+<apex:actionSupport event="onchange" rerender="list,list1,zxc"/>
+<apex:selectOption itemValue="Recently Modified" itemLabel="Recently Modified"/>
+<apex:selectOption itemValue="All Campaigns" itemLabel="All Campaigns"/>
+<apex:selectOption itemValue="All Active Campaigns" itemLabel="All Active Campaigns"/>
+<apex:selectOption itemValue="My Active Campaigns" itemLabel="My Active Campaigns"/>
+<apex:selectOption itemValue="Inactive Campaigns" itemLabel="Inactive Campaigns"/>
+</apex:selectList>
+
+
+    <apex:commandButton value="Go" rerender="list" action="{!pagecheck}" />
+  
+
+
+
+<apex:outputPanel id="list">
+<apex:actionstatus id="status" startText="testing...">
+<apex:facet name="stop">
+<apex:outputPanel >
+<p>You have selected:</p>
+<apex:dataList value="{!view}" var="camp">{!camp}</apex:dataList>
+</apex:outputPanel>
+</apex:facet>
+</apex:actionstatus>
+</apex:outputPanel>
+
+
+
+
+      
+
+
+<apex:pageBlockTable value="{!campaigns}" var="camp" id="list1">
+
+<apex:column >
+<apex:outputLink value="{!$Page.CampaignEdit}">
+{!camp.Name}
+<apex:param name="id" value="{!camp.Id}"></apex:param>
+
+</apex:outputLink> 
+</apex:column>
+
+<!-- <apex:commandLink ><apex:column value="{!camp.Name}"/>
+
+<apex:column value="{!camp.Type}"/>
+<apex:column value="{!camp.Status}"/>
+<apex:column value="{!camp.StartDate}"/>
+	
+
+
+</apex:pageBlockTable>
+
+
+
+
+ 
+
+ <apex:panelGrid columns="7" id="zxc">
+                <apex:commandButton status="fetchStatus" reRender="pqr" value="|<" action="{!setCon.first}" disabled="{!!setCon.hasPrevious}" title="First Page"/>
+                <apex:commandButton status="fetchStatus" reRender="pqr" value="<" action="{!setCon.previous}" disabled="{!!setCon.hasPrevious}" title="Previous Page"/>
+                <apex:commandButton status="fetchStatus" value=">" action="{!setCon.next}" disabled="{!!setCon.hasNext}" title="Next Page"/>
+                <apex:commandButton status="fetchStatus" reRender="pqr" value=">|" action="{!setCon.last}" disabled="{!!setCon.hasNext}" title="Last Page"/>
+                <apex:outputText >{!(setCon.pageNumber * size)+1-size}-{!IF((setCon.pageNumber * size)>noOfRecords, noOfRecords,(setCon.pageNumber * size))} of {!noOfRecords}</apex:outputText>
+                <apex:commandButton status="fetchStatus" reRender="pqr" value="Refresh" action="{!refresh}" title="Refresh Page"/>
+                <apex:outputPanel style="color:#4AA02C;font-weight:bold">
+                    <apex:actionStatus id="fetchStatus" startText="Fetching..." stopText=""/>
+                </apex:outputPanel>
+            </apex:panelGrid>
+            
+  </apex:form>
+ </apex:pageBlock>          
+
+
+</apex:page> -->

@@ -1,0 +1,82 @@
+<apex:page controller="SalesforceSearchController">
+
+ <apex:form >
+  <apex:pageBlock mode="edit" id="block">
+  <apex:pageMessages id="test"></apex:pageMessages>
+  <apex:pageBlockSection >
+  <apex:pageBlockSectionItem >
+  <apex:outputLabel for="searchText">Search Text</apex:outputLabel>
+   <apex:panelGroup >
+   <apex:inputText id="searchText" value="{!searchText}" />
+   <apex:commandButton value="Go!" action="{!doSearch}" rerender="block,test,results1,results,results2,results3,searchText" status="status"/>
+   </apex:panelGroup>
+  </apex:pageBlockSectionItem>
+  
+  
+  </apex:pageBlockSection> 
+   
+   <apex:actionStatus id="status" startText="Requesting..."> 
+  <apex:facet name="start">
+   <center><img src="{!$Resource.Image}" /></center>
+ 
+ <!--  <apex:image id="theImage" url="{!URLFOR($Resource.Image)}"/> -->
+ </apex:facet>
+   </apex:actionStatus>
+   </apex:pageBlock>
+ 
+  <apex:pageBlock title="Lead" id="results">
+  <apex:outputText value="Lead Record Not Available" rendered="{!if(results_lead.size==0,true,false)}"></apex:outputText>
+  <apex:pageBlockTable value="{!results_lead}" var="l" rendered="{!NOT(ISNULL(results_lead))}">
+  <apex:column ><apex:outputLink value="{!$Page.SalesforceSearchGetData}">{!l.name} <apex:param name="id" value="{!l.Id}"></apex:param></apex:outputLink></apex:column>
+   <apex:column value="{!l.FirstName}"/>
+   <apex:column value="{!l.LastName}"/>
+
+   </apex:pageBlockTable>
+   </apex:pageBlock> 
+  
+   
+   
+ <apex:pageBlock title="Contacts" id="results1">
+  <apex:outputText value="Contacts Record Not Available" rendered="{!if(results_contact.size==0,true,false)}"></apex:outputText>
+  <apex:pageBlockTable value="{!results_contact}" var="l" rendered="{!NOT(ISNULL(results_contact))}">
+  
+  <apex:column ><apex:outputLink value="{!$Page.SalesforceSearchGetData}">{!l.name} <apex:param name="id" value="{!l.Id}"></apex:param></apex:outputLink></apex:column>
+   
+   <apex:column value="{!l.FirstName}"/>
+   <apex:column value="{!l.LastName}"/>
+
+   
+   </apex:pageBlockTable>
+   </apex:pageBlock>  
+    
+
+ <apex:pageBlock title="Accounts" id="results2">
+   <apex:outputText value="Accounts Record Not Available" rendered="{!if(results_account.size==0,true,false)}"></apex:outputText>
+  <apex:pageBlockTable value="{!results_account}" var="l" rendered="{!NOT(ISNULL(results_account))}">
+ 
+  <apex:column ><apex:outputLink value="{!$Page.SalesforceSearchGetData}">{!l.name} <apex:param name="id" value="{!l.Id}"></apex:param></apex:outputLink></apex:column>
+   <apex:column value="{!l.First_Name__c}"/>
+   <apex:column value="{!l.Last_Name__c}"/>
+  
+  
+   </apex:pageBlockTable>
+   </apex:pageBlock>  
+   
+   
+ <apex:pageBlock title="Opportunities" id="results3">
+  <apex:outputText value="Opportunities Record Not Available" rendered="{!if(results_opportunity.size==0,true,false)}"></apex:outputText>
+  <apex:pageBlockTable value="{!results_opportunity}" var="l" rendered="{!NOT(ISNULL(results_opportunity))}">
+  
+  <apex:column ><apex:outputLink value="{!$Page.SalesforceSearchGetData}">{!l.name} <apex:param name="id" value="{!l.Id}"></apex:param></apex:outputLink></apex:column>
+   <apex:column value="{!l.First_Name__c}"/>
+   <apex:column value="{!l.Last_Name__c}"/>
+ 
+   
+   
+   </apex:pageBlockTable>
+
+   
+
+  </apex:pageBlock>
+ </apex:form>
+</apex:page>

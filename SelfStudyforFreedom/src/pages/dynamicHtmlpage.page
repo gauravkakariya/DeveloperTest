@@ -1,0 +1,59 @@
+<apex:page controller="dynamicHtmlController">
+
+	<script type="text/javascript">
+		window.onload = function(){getRemoteAccount();}
+		
+		onload=function(){
+					var nrCols=2;
+					var maxRows=4;
+					var nrRows=maxRows+1;
+					while(nrRows>maxRows){
+					nrRows=Number(prompt('How many rows? Maximum '+maxRows+' allowed.',''));
+					}
+					var root=document.getElementById('test');
+					var tab=document.createElement('table');
+					tab.className="mytable";
+					var tbo=document.createElement('tbody');
+					var row, cell;
+					for(var i=0;i<nrRows;i++){
+						row=document.createElement('tr');
+						for(var j=0;j<nrCols;j++){
+							cell=document.createElement('td');
+							cell.appendChild(document.createTextNode(i+' '+j))
+							row.appendChild(cell);
+						}
+						tbo.appendChild(row);
+					}
+				tab.appendChild(tbo);
+				root.appendChild(tab);
+		}
+		
+		function getRemoteAccount()
+		{
+		     var labelName = document.getElementById('test').innerHTML;
+		     
+// 		     dynamicHtmlController.getStringData(function(result,event)
+// 		     {
+// 	      	 	document.getElementById('test').innerHTML = '<table><tr>'+result[0]+'</tr></br><tr>'+result[1]+'</tr></br><tr>'+result[2]+'</tr></br><tr>'+result[3]+'</tr></table>';
+// 	     	 });
+	     	 
+	     	 dynamicHtmlController.getAccountData(function(result,event)
+		     {
+		        var temp ='';
+		         for ( var i = 0; i < result.length; i++) {
+				    var r = result[i];
+				    temp = temp +'</br>'+ r.Name;
+				   }
+				     document.getElementById('test').innerHTML = 'Account Records: '+temp;
+	      	 	//document.getElementById('test').innerHTML = '<table><tr>'+result[0]+'</tr></br><tr>'+result[1]+'</tr></br><tr>'+result[2]+'</tr></br><tr>'+result[3]+'</tr></table>';
+	     	 });
+	     	 
+	     	 
+		}
+	</script>
+	<body>
+		<div id ="test">
+		</div>
+	</body>
+		
+</apex:page>

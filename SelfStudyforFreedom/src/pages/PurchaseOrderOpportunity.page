@@ -1,0 +1,41 @@
+<apex:page standardController="Opportunity" extensions="PurchaseOrder">
+<!-- Begin Default Content REMOVE THIS -->
+<apex:form >
+<apex:pageBlock >
+<apex:pageBlockSection >
+	  <apex:pageBlockSectionItem >
+	  	<apex:pageBlock >
+     	  	<apex:selectList id="test" value="{!prodView}" size="1">
+     	  		<apex:actionSupport event="onchange" rerender="list"/>
+     	  	 	<apex:outputLabel value="Recent Opportunity:  "/>
+     	  		<apex:selectOption itemValue="AllOpportunity" itemLabel="All Opportunity"/>
+     	  	
+     	  	</apex:selectList>
+     	  	 	<apex:commandButton value="Go"  action="{!Search}"/>
+     		</apex:pageBlock>
+     	  	 	
+	  </apex:pageBlockSectionItem>
+	
+</apex:pageBlockSection>
+</apex:pageBlock>
+
+<apex:pageBlock >
+<apex:pageBlockSection columns="1" id="list">
+	<apex:pageBlockTable value="{!lstProduct}" var="opportunity">
+     		<apex:column headerValue="Name">
+			<apex:outputLink value="/{!opportunity.Id}">{!opportunity.Name}</apex:outputLink>
+		</apex:column>	 
+		<apex:column headerValue="Description" value="{!opportunity.Description}"/>
+            <apex:column headerValue="Amount" value="{!opportunity.Amount}"/>
+            <apex:column headerValue="Close Date" value="{!opportunity.CloseDate}"/>
+                                  
+      </apex:pageBlockTable>
+</apex:pageBlockSection>
+</apex:pageBlock>           
+
+
+
+
+ 
+</apex:form>
+</apex:page>

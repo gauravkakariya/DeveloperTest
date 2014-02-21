@@ -1,0 +1,49 @@
+<apex:page controller="ProductDisplay">
+<apex:form >
+        <apex:pageBlock Title="Add Product">
+        
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!save}" rerender="error"/>
+                <apex:commandButton value="Cancel" onclick="window.open('/apex/ProductDetails');" rerender="error"/>
+            </apex:pageBlockButtons>
+            
+             <apex:pageBlockTable value="{!products}" var="">
+
+                     <apex:facet name="header"><apex:commandLink value="Add Row" action="{!addrow}" rerender="table,error"/>   </apex:facet>
+
+           		   <apex:facet name="footer"> <apex:commandLink value="Delete Row" action="{!delRow}" rerender="table,error"/>  </apex:facet>
+
+            </apex:pageBlockTable>
+         
+            <apex:pageBlockTable value="{!products}" var="a" id="table">
+           
+                
+                  
+                <apex:column headerValue="Active">
+                    <apex:inputField value="{!a.IsActive}"/>
+                </apex:column>
+                   
+                <apex:column headerValue="Name">
+                    <apex:inputField value="{!a.Name}"/>
+                </apex:column>
+                
+                <apex:column headerValue="Product Code">
+                    <apex:inputField value="{!a.ProductCode}"/>
+                </apex:column>
+                
+                 <apex:column headerValue="Description">
+                    <apex:inputField value="{!a.Description}"/>
+                 </apex:column>
+                 
+                 <apex:column headerValue="Family">
+                    <apex:inputField value="{!a.Family}"/>
+                </apex:column>
+
+               
+         
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+</apex:form>
+            
+
+</apex:page>

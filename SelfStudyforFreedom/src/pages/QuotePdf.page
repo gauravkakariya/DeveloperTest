@@ -1,0 +1,184 @@
+<apex:page renderAs="pdf" standardController="Quote">
+
+
+
+<center>
+ <apex:image url="{!$Resource.QuoteLogo}" width="500" height="150"/>
+<apex:stylesheet value="{!$Resource.style}"/>
+
+  
+     <apex:panelGrid columns="1" width="100%">
+        <apex:outputText value="{!Quote.Name}"/>
+        <apex:outputText value="{!NOW()}"></apex:outputText>
+     </apex:panelGrid>	
+        			<apex:panelGrid columns="2">
+					<apex:outputText value="Company Name:"/>
+					<apex:outputText value="{!$Organization.Name}" />
+					
+				</apex:panelGrid>
+		
+    
+    <br></br>
+    <br></br>
+</center>
+
+<apex:pageBlock >
+     
+
+
+                 
+<apex:outputPanel layout="block">
+ 
+				
+
+ <apex:panelGrid columns="2" style="align:center">
+
+
+
+			   <apex:panelGrid columns="2">
+					<apex:outputText value="QuoteNumber:"/>
+					<apex:outputField value="{!Quote.QuoteNumber}"/>
+			   </apex:panelGrid>
+
+
+			   <apex:panelGrid columns="2" >
+
+					<apex:outputText value="Expiration Date:" />
+                   		<apex:outputField value="{!Quote.ExpirationDate}" />
+                     </apex:panelGrid> 
+                 
+        
+  
+                  
+                     <apex:panelGrid columns="2">
+                    		<apex:outputText value="QuoteName:"  />
+                    		<apex:outputField value="{!Quote.Name}"  />
+                      </apex:panelGrid> 
+                    
+                
+                    
+                    <apex:panelGrid columns="2">
+                   	 <apex:outputText value="Opportunity Name:"  />
+                   	 <apex:outputField value="{!Quote.Opportunity.Name}" />
+                    </apex:panelGrid> 
+                    
+                    
+                    <apex:panelGrid columns="2">
+                   	 <apex:outputText value="Status:"  />
+                    	 <apex:outputField value="{!Quote.Status}" />
+                    </apex:panelGrid> 
+                     
+                    
+                     <apex:panelGrid columns="2">
+                    	<apex:outputText value="Description:"  />
+                    	<apex:outputField value="{!Quote.Description}" />
+                     </apex:panelGrid> 
+                    
+                 
+                    
+                    <apex:panelGrid columns="2">
+                    	<apex:outputText value="Tax:"  />
+                    	<apex:outputField value="{!Quote.Tax}" />
+                      </apex:panelGrid> 
+                    
+                    <apex:panelGrid columns="2">
+                     	<apex:outputText value="Discount:"  />
+                    	<apex:outputField value="{!Quote.Discount}" />
+                     </apex:panelGrid> 
+                   
+                    
+                     <apex:panelGrid columns="2">
+                    	<apex:outputText value="Shipping and Handling:"  />
+                    	<apex:outputField value="{!Quote.ShippingHandling}" />
+                     </apex:panelGrid> 
+
+                    <apex:panelGrid columns="2">
+                   	 <apex:outputText value="ShippingName:"  />
+                    	 <apex:outputField value="{!Quote.ShippingName}" />
+                     </apex:panelGrid> 
+                    
+                     <apex:panelGrid columns="2">
+                    	<apex:outputLabel value="Phone:"  />
+       	        	<apex:outputLabel value="{!Quote.Phone}" />
+       	        </apex:panelGrid> 
+                    
+                    
+                   <apex:panelGrid columns="2">
+                    	<apex:outputLabel value="Email:"  />
+       		  	<apex:outputLabel value="{!Quote.Email}"/>
+       	        </apex:panelGrid> 
+       			    
+                     <apex:panelGrid columns="2">
+                    	 <apex:outputLabel value="Fax:"  />
+      			 <apex:outputLabel value="{!Quote.Fax}" />
+       	         </apex:panelGrid> 
+       			 <br></br>
+    <br></br>   
+ </apex:panelGrid>
+ <apex:pageBlock >
+ <apex:pageBlockSection columns="5">
+   <apex:dataTable value="{!Quote.QuoteLineItems}"  var="line" width="630"  cellPadding="4" border="1">
+     
+    
+     <apex:column headerClass="header" headerValue="Product">
+     		<apex:facet name="header">Product</apex:facet>
+     		<apex:outputText value="{!line.PriceBookentry.name}"/>
+     </apex:column>        
+     <apex:column headerClass="header2" headerValue="Quantity">
+     		<apex:facet name="header">Quantity</apex:facet>
+    		 <apex:outputText value="{!line.Quantity}"/>
+     </apex:column>
+     <apex:column headerClass="header2" headerValue="Price Each">
+     		<apex:facet name="header">Price Each</apex:facet>
+     		<apex:outputText value="{!line.ListPrice}"/>
+     </apex:column>
+     
+     <apex:column headerClass="header2" headerValue="Discount">
+     		<apex:facet name="header">Discount</apex:facet>
+     		<apex:outputText value="{!line.Discount}"/>
+     </apex:column>
+     <apex:column headerClass="header2" headerValue="Price Each">
+     		<apex:facet name="header">SubTotal</apex:facet>
+     		<apex:outputText value="{!line.Subtotal}"/>
+     
+      
+     </apex:column>        
+
+   </apex:dataTable>
+ 
+
+   </apex:pageBlockSection>
+     
+</apex:pageBlock>	
+             			    
+    	
+
+                     
+                     
+                  </apex:outputPanel>
+                  
+                    <hr></hr>
+  <table>
+            <br/>
+            <tr>
+            <td width="30%"/>
+            <td width="10%"/>
+            <td width="10%" styleClass="class1">Grand Total :</td>
+            <td width="15%">{!Quote.GrandTotal}</td>
+            </tr>
+            </table>
+       	
+  	</apex:pageBlock>
+ 
+  
+ 
+ <apex:outputText value="Name:"></apex:outputText>     __________________________________________
+ <br></br>
+ <apex:outputText value="Signature:"></apex:outputText> _________________________________________
+ <br></br>
+ <apex:outputText value="Date:"></apex:outputText>      __________________________________________
+
+  
+  
+
+</apex:page>

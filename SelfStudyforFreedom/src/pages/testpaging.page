@@ -1,0 +1,41 @@
+<apex:page controller="CmPaging">
+    <apex:form >
+        <apex:pageBlock >            
+           
+             <apex:pageBlockSection >
+             <apex:pageBlockSectionItem >
+     <apex:selectList id="test" value="{!view.Name}" size="1">
+                    <apex:actionSupport event="onchange" rerender="pqr"/>
+                    <apex:selectOption itemValue="RecentlyModified" itemLabel="Recently Modified" />
+     <apex:selectOption itemValue="AllCampaigns" itemLabel="All Campaigns"/>
+     <apex:selectOption itemValue="AllActiveCampaigns" itemLabel="All Active Campaigns"/>
+     <apex:selectOption itemValue="MyactiveCampaigns" itemLabel="My Active Campaigns"/>
+     <apex:selectOption itemValue="InactiveCampaigns" itemLabel="Inactive Campaigns"/>
+            </apex:selectList>
+            <apex:commandButton value="Go" action="{!Search}"/>
+            </apex:pageBlockSectionItem>
+          </apex:pageBlockSection> 
+                    
+
+        
+            <apex:pageBlockSection columns="1" id="list">
+                <apex:pageBlockTable value="{!Allview}" var="camp">
+                    <apex:column headerValue="Name" value="{!camp.Name}"/>
+                    <apex:column headerValue="Status" value="{!camp.Status}"/>
+                    <apex:column headerValue="Type" value="{!camp.Type}"/>
+                    <apex:column headerValue="Start Date" value="{!camp.StartDate}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+           
+
+      
+                 <!--   <apex:commandButton value="/First" action="{!con.first}" rendered="{!con.first}"title="First Page"/>-->
+                  <apex:commandLink action="{!Previous}" title="Previous Page" value="Previous" rendered="{!Con.HasPrevious}"/>  
+                 
+                  <apex:commandLink title="Next Page" value="Next" rendered="{!Con.HasNext}" action="{!Next}"/>&nbsp;
+                <!--     <apex:commandButton value="Last/" action="{!con.last}" title="Last Page"/>-->
+                
+                           
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>

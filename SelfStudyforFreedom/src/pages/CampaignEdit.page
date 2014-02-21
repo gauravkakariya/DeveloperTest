@@ -1,0 +1,151 @@
+<apex:page standardController="Campaign">
+ <!--  <apex:sectionHeader title="{!$ObjectType.Campaign.label}" subtitle="{!Campaign.Name}"/>-->
+ <apex:pageBlock title="{!$ObjectType.Campaign.label} Detail" mode="edit"> 
+  <apex:pageBlockButtons >
+  <apex:form >
+  
+  
+  
+<!--   <apex:commandLink action="{!URLFOR($Action.Campaign.Edit,Campaign.id)}" value="Edit"/>&nbsp;
+  
+   <apex:commandLink action="{!URLFOR($Action.Campaign.Delete,Campaign.id)}" value="Delete"/>&nbsp;
+   
+   <apex:commandLink action="{!URLFOR($Action.Campaign.Clone,Campaign.id)}" value="Copy"/>&nbsp;-->  
+   
+   <apex:outputLink value="https://ap1.salesforce.com/{!Campaign.id}/e">Edit |</apex:outputLink>
+   <apex:outputLink value="https://ap1.salesforce.com/701/o">Delete |</apex:outputLink>
+   <apex:outputLink value="https://ap1.salesforce.com/{!Campaign.id}/e?clone=1">Copy |</apex:outputLink>
+   
+   
+  
+ 
+  <dl class="dropdown">
+  <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">Action</dt>
+  <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+    <ul>
+       <apex:outputLink value="https://ap1.salesforce.com/"><li><a href="#" class="underline">Manage Member </a></li></apex:outputLink>
+      <li><a href="#" class="underline">Add Member from Mailing List</a></li>
+      
+    </ul>
+  </dd>
+</dl>
+
+
+
+</apex:form>
+</apex:pageBlockButtons>
+   <apex:stylesheet value="{!$Resource.dropdown}"/>
+   <apex:includeScript value="{!$Resource.dropdownjs}" />
+
+   
+ 
+
+ <!--  
+  <apex:pageBlockSection showHeader="false" columns="2">
+   <apex:outputField value="{!Campaign.Name}"/>
+   <apex:pageBlockSectionItem >
+    <apex:outputLabel value="Custom Sharing Owner"/>
+    
+    <apex:outputPanel >
+     <apex:outputField value="{!Campaign.OwnerId}"/>&nbsp;
+    
+    </apex:outputPanel>
+    
+   </apex:pageBlockSectionItem>
+   <apex:outputField value="{!Campaign.Name}"/>
+   <apex:outputField value="{!Campaign.Status}"/>
+   <apex:outputField value="{!Campaign.Type}"/>
+  
+   <apex:pageBlockSectionItem />
+   <apex:outputField value="{!Campaign.Name}"/>
+   <apex:pageBlockSectionItem />
+   </apex:pageBlockSection>
+   
+   -->
+   
+    <apex:pageBlockSection columns="2" >
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Campaign Owner" />
+                <apex:outputLabel value="" />
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Category" />
+                <apex:outputLabel value="" />
+                </apex:pageBlockSectionItem>
+                
+         </apex:pageBlockSection>   
+          <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Campaign Name" />
+                <apex:outputLabel value="{!Campaign.Name}" />
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Type" />
+                <apex:outputLabel value="{!Campaign.Type}" />
+                </apex:pageBlockSectionItem>
+         </apex:pageBlockSection>
+         
+         <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Start Date" />
+                <apex:outputLabel value="{!Campaign.StartDate}" />
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Num Sent" />
+                <apex:outputLabel value="{!Campaign.NumberSent}" />
+                </apex:pageBlockSectionItem>
+         </apex:pageBlockSection>
+         
+         <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="End Date" />
+                <apex:outputLabel value="{!Campaign.EndDate}" />
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Parent Campaign" />
+                <apex:outputLabel value="" />
+                </apex:pageBlockSectionItem>
+         </apex:pageBlockSection>
+         
+         <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Created By" />
+                <apex:outputLabel value="" />
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Status" />
+                <apex:outputLabel value="{!Campaign.Status}" />
+                </apex:pageBlockSectionItem>
+         </apex:pageBlockSection>
+         
+          <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Modified By" />
+                <apex:outputLabel value="" />
+                </apex:pageBlockSectionItem>
+         </apex:pageBlockSection>
+         
+          <apex:pageBlockSection columns="2">
+                <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Description" />
+                <apex:outputLabel value="{!Campaign.Description}" />
+                </apex:pageBlockSectionItem>
+         </apex:pageBlockSection>
+   
+  
+  <apex:pageBlockSection showHeader="false" columns="2">
+   <apex:outputField value="{!Campaign.CreatedById}"/>
+   <apex:outputField value="{!Campaign.LastModifiedById}"/>
+  </apex:pageBlockSection>
+
+ 
+   
+   <apex:pageBlockSection title="Custom Links" columns="0"> 
+     </apex:pageBlockSection>
+    </apex:pageBlock>
+ </apex:page>

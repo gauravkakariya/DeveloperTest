@@ -1,0 +1,18 @@
+<apex:page controller="VFAccountList" >
+<apex:pageBlock >
+<apex:pageBlockTable value="{!Account}" var="acc">
+<h1>Congratulations</h1>
+Here are the records from ACCOUNT
+    <apex:column value="{!acc.Name}"/>
+    <apex:column value="{!acc.Phone}"/>
+    <apex:column value="{!acc.Full_Name__c}"/>
+    <apex:column value="{!acc.Email__c}"/>
+    <apex:column value="{!acc.Id}"/>
+    
+</apex:pageBlockTable>
+
+</apex:pageBlock>
+<!-- Begin Default Content REMOVE THIS -->
+
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

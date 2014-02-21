@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+
+<channel>
+	<title>Force.com Blogs</title>
+	
+	<link>http://blogs.developerforce.com</link>
+	<description/>
+	<lastBuildDate>Wed, 19 Feb 2014 00:06:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://feeds.feedburner.com/SforceBlog" rel="self" type="application/rss+xml"/><feedburner:info uri="sforceblog"/><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/><feedburner:emailServiceId>SforceBlog</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2FSforceBlog" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FSforceBlog" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2FSforceBlog" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/SforceBlog" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FSforceBlog" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FSforceBlog" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FSforceBlog" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><item>
+		<title>Startup Weekend Oakland – Black Male Achievement Recap</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/Lz7d51g0mAA/startup-weekend-oakland-black-male-achievement-recap.html</link>
+		<comments>http://blogs.developerforce.com/developer-relations/2014/02/startup-weekend-oakland-black-male-achievement-recap.html#comments</comments>
+		<pubDate>Mon, 17 Feb 2014 17:54:37 +0000</pubDate>
+		<dc:creator>Mary Scotton</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[blacks in tech]]></category>
+		<category><![CDATA[Developers]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[social good]]></category>
+
+		<guid isPermaLink="false">http://26.48691</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/developer-relations/2014/02/startup-weekend-oakland-black-male-achievement-recap.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1392657071/hackathon_1_adnsbw.jpg" class="alignleft wp-post-image tfe" alt="" title="" /></a>On February 8, 2014, I was witness to the start of a movement. A movement that is empowering young black people with something we all love: code. A movement that will hopefully make us stop and think the next time we see a young black man in a hoodie: is he a thug, or a genius?]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter wp-image-48811" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1392657071/hackathon_1_adnsbw.jpg" width="600" height="251" />On February 8, 2014, I was witness to the start of a movement. A movement that is empowering young black people with something we all love: <em>code</em>. A movement that will hopefully make us stop and think the next time we see a young black man in a hoodie: is he a thug, or a genius?</p>
+<p><img class="alignleft wp-image-48821" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_300/v1392657305/hoodie_t9j8lj.png" width="300" height="279" /></p>
+<p><a title="BMA" href="http://bmaoakland.startupweekend.org/" target="_blank">Startup Weekend Oakland &#8211; Black Male Achievement</a> was the first Startup Weekend hackathon in Oakland, the first hackathon focused on solving issues that impact young black men, and the first event in the amazing <a title="HUB" href="https://oakland.impacthub.net/" target="_blank">Impact HUB Oakland</a> space at 2323 Broadway, Oakland, CA.</p>
+<p>Oakland was my home for 10 years, and what I love most about Oakland is what <a title="Ashara" href="https://twitter.com/blublakwomyn" target="_blank">Ashara Ekundayo</a>, co-founder of Impact Hub Oakland, called <em>radical inclusion</em>. The thoughtful mixing of people from all races. I call it <em>disruptive diversity: </em>not hiding from our differences, but welcoming them and celebrating them, and calling everyone to action to join the movement.</p>
+<p>This Startup Weekend was sponsored by <a title="YesWeCode" href="http://www.yeswecode.org/" target="_blank">#Yes We Code</a>, a national initiative to teach 100,000 low-opportunity youth to code. I didn&#8217;t know about #Yes We Code or <a title="Van Jones" href="http://en.wikipedia.org/wiki/Van_Jones" target="_blank">Van Jones</a> until this event, and it turns out there are a lot of other people and organizations I did not know about: <a title="Kalimah" href="https://twitter.com/priforce" target="_blank">Kalimah Priforce</a> and <a title="Qeyno" href="http://launch.qeyno.com/" target="_blank">Qeyno Labs</a>, <a title="Mitch" href="http://en.wikipedia.org/wiki/Mitch_Kapor" target="_blank">Mitch Kapor</a>, <a title="Freada" href="http://en.wikipedia.org/wiki/Freada_Kapor_Klein" target="_blank">Freada Kapor Klein, PhD</a> and the <a title="Kapor" href="http://kaporcenter.org/founders-staff/" target="_blank">Kapor Center for Social Impact</a>, and the <a title="Hidden" href="http://www.hiddengeniusproject.org/" target="_blank">Hidden Genius Project</a>, to name a few.  All working to bridge the digital divide for people of color.</p>
+<p style="text-align: center"><img class="aligncenter wp-image-48831" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_450/v1392657307/IMG_8233_qmfsko.jpg" width="450" height="338" /><em>Mitch Kapor, Van Jones, and the hackers proudly wearing their hoodies</em></p>
+<p>Co-organizer <a title="ayori" href="https://twitter.com/iayori" target="_blank">Ayori Selassie</a>, an old friend from salesforce.com, invited me to the hackathon along with other salesforce.com volunteers. Ayori is a tireless advocate for Blacks in Tech, and is handing the &#8220;Tech Torch&#8221; down to her daughter, age 8, who pitched a product idea on Friday night. <a title="Leah" href="https://twitter.com/LeahBMH" target="_blank">Leah McGowen-Hare</a>, another old friend from salesforce.com, who volunteered as a mentor for the hackathon, is passing the Tech Torch to her son and her daughters. Her son, a middle-schooler, was one of the students who hacked for good over the weekend.</p>
+<p style="text-align: center"><img class="aligncenter wp-image-48841" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_450/v1392657066/IMG_8244_ns7cbr.jpg" width="450" height="338" /><em>Ayori Selassie and her daughter</em></p>
+<p>The event was captured thoroughly in this article in <a title="BMA article" href="http://oaklandlocal.com/2014/02/startup-weekend-oaklandblack-male-achievement-produces-14-apps-lots-of-inspiration/" target="_blank">Oakland Local</a>, which opens with a quote from Ayori, so I will not repeat the details, but instead share what inspired me the most: meeting George.</p>
+<p>When I arrived Saturday night, just before the Gala, the hackers had been coding all day. I walked around the 2nd floor of Impact HUB Oakland (a beautiful space!), peeking into the work spaces where the teams were still coding and sketching and strategizing.</p>
+<p>I saw a young man sitting on a couch, looking at his phone, wearing a hoodie. Maybe in another situation, I would have been intimidated, based on a societal bias against black kids in hoodies.  But, it was a Salesforce1 Platform hoodie, so I said &#8220;Hi&#8221; and asked him if he was enjoying the event. He told me, with the delivery of a seasoned entrepreneur, &#8220;Yes, I&#8217;m the product manager for the Connect the Dots app, which is a online community for black students who are in private schools and feeling isolated. The app gives them a way to connect with other students to talk about their issues.&#8221; To which I replied: &#8220;How OLD are you?!?&#8221; He said, &#8220;14.&#8221;  14, and spending his weekend coding for good, for his peers, to make their education experience better.</p>
+<p><img class="alignleft wp-image-48851" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_300/v1392657948/Connect_zi5jlk.png" width="300" height="239" /></p>
+<p>This event was not about coding the next Candy Crush, it was focused on black teens coding apps to solve real issues that black teens face.  Connect the Dots tied for 3rd place. Read about it and the other winning apps, HelpCircle (1st place) and CourtDateApp (2nd place), <a title="BMA article" href="http://oaklandlocal.com/2014/02/startup-weekend-oaklandblack-male-achievement-produces-14-apps-lots-of-inspiration/" target="_blank">here</a>.</p>
+<p>I am so inspired by the students and adults I met and the energy I felt. Tech companies are missing out on this amazing energy because of preconceived biases that keep people of color from sometimes even getting in the door for a job interview. I want to see that change; to be part of that change. I am signing up to be part of this movement.</p>
+<p>&nbsp;</p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/Lz7d51g0mAA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/developer-relations/2014/02/startup-weekend-oakland-black-male-achievement-recap.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/developer-relations/2014/02/startup-weekend-oakland-black-male-achievement-recap.html</feedburner:origLink></item>
+		<item>
+		<title>PWC Helps Drive Complete Sales Transformation for USG</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/FiGjWK-7_hk/pwc-helps-drive-complete-sales-transformation-for-usg.html</link>
+		<comments>http://blogs.developerforce.com/isv/2014/02/pwc-helps-drive-complete-sales-transformation-for-usg.html#comments</comments>
+		<pubDate>Sat, 15 Feb 2014 01:19:49 +0000</pubDate>
+		<dc:creator>Laura Brady</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://30.10341</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/isv/2014/02/pwc-helps-drive-complete-sales-transformation-for-usg.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_147/v1392424159/Cloud5_PWC_cropped_femxfh.jpg" class="alignleft wp-post-image tfe" alt="" title="" /></a>It’s no secret the construction industry has struggled through the recent recession, and that’s why PWC’s innovative approach to helping USG, a building-products company, transform its business is particularly impressive. In fact, PWC was awarded the Salesforce.com Partner Innovation Award in Sales at Dreamforce 2013 for the work they’ve done at USG.]]></description>
+				<content:encoded><![CDATA[<p><img class="wp-image-10471 alignright" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_147/v1392424159/Cloud5_PWC_cropped_femxfh.jpg" width="147" height="151" />It’s no secret the construction industry has struggled through the recent recession, and that’s why PWC’s innovative approach to helping USG, a building-products company, transform its business is particularly impressive. In fact, PWC was awarded the <a href="http://www.pwc.com/us/en/press-releases/2013/pwc-us-awarded-for-innovation.jhtml" target="_blank">Salesforce.com Partner Innovation Award in Sales</a> at Dreamforce 2013 for the work they’ve done at USG.</p>
+<p>In an effort to not only survive, but thrive during this economic downturn, USG partnered with PWC and developed a plan that leverages salesforce.com’s social and mobile cloud technologies to drive transformation across the organization.  To ensure the project’s success, USG made sure it’s decisions were driven by a clear vision supported by three guiding principles:</p>
+<ol>
+<li>It must be <b>business driven</b></li>
+<li> It must use <b>modern technology</b></li>
+<li> It must garner <b>100% adoption</b></li>
+</ol>
+<p>By following this approach, PWC was able to guide USG through a transformation journey that led to amazing results:</p>
+<ul>
+<li><span style="font-size: 13px;">Reduction in administration time by 50%</span></li>
+<li>Job wins increased with more strategic planning and lead tracking</li>
+<li>Increased customer loyalty and tightened customer integration</li>
+</ul>
+<p>To learn more about USG’s complete transformation journey, <span><a href="http://www.youtube.com/watch?v=VuyFXO6liLM" target="_blank">watch</a> the</span> recording of their session from Dreamforce 2013.</p>
+<p style="text-align: center;"><img class="wp-image-10451 aligncenter" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_515/v1392424158/PWC_USG_Blog_pic_mpmi2n.jpg" width="515" height="316" /></p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/FiGjWK-7_hk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/isv/2014/02/pwc-helps-drive-complete-sales-transformation-for-usg.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/isv/2014/02/pwc-helps-drive-complete-sales-transformation-for-usg.html</feedburner:origLink></item>
+		<item>
+		<title>Script Statement Hangover</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/zTONwPxQg8Q/script-statement-hangover.html</link>
+		<comments>http://blogs.developerforce.com/engineering/2014/02/script-statement-hangover.html#comments</comments>
+		<pubDate>Fri, 14 Feb 2014 22:47:56 +0000</pubDate>
+		<dc:creator>Josh Kaplan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://25.16081</guid>
+		<description><![CDATA[As mentioned in a prior blog post, we have eliminated the highly unloved script statement limit.  As a general rule, this will allow you to run more logic within a single transaction.  I hope you are all getting used to your larger digs and trying to figure out what you are going to do with [...]]]></description>
+				<content:encoded><![CDATA[<p dir="ltr">As mentioned in a prior blog post, we have eliminated the highly unloved script statement limit.  As a general rule, this will allow you to run more logic within a single transaction.  I hope you are all getting used to your larger digs and trying to figure out what you are going to do with all those extra statements.</p>
+<p dir="ltr">One of the benefits to going away from statement counting is a performance lift.  We don’t need to do that pesky “i++” call after every single statement.  While incrementing a counter isn’t very expensive, it’s non-zero, and it’s multiplied by the billions every single day here in the cloud.  Less overhead means faster execution.</p>
+<h1>The Loose End</h1>
+<p dir="ltr">This leaves us with one loose end &#8211; Limits.getScriptStatements().</p>
+<p dir="ltr">Some of you have never heard of this.  If that’s you, you’re in the clear! Feel free to return to cranking out awesome Apex code.</p>
+<p dir="ltr">Others of you may have used this in your code as a backstop against hitting the ole’ statement limit.  Perhaps you wrote something like this:</p>
+<pre>    if (Limits.getScriptStatements() + 1000 &lt; Limits.getLimitScriptStatements()) {
+        //do something that takes 1000 script statements
+    } else {
+        //exit gracefully
+    }</pre>
+<p dir="ltr">This is nice-looking code!  It served a valid purpose, and served it well.  It’s also no longer going to do what it used to do.</p>
+<p dir="ltr">As I mentioned, we are no longer counting script statements, because that was taking up actual time and it is no longer used by us internally.  As such, the Limit.getScriptStatements() method is undefined.</p>
+<h1>What Should We Say?</h1>
+<p dir="ltr">We had to return some value for this method, despite it being undefined. This is because you’ve used it in your nice-looking code, and we want it to compile.  We had two good options for a return value for this method: we could return zero, or we could return MAX_INT.</p>
+<p dir="ltr">Returning zero was a bad option.  Let’s say your nice-looking code looked like this instead:</p>
+<pre>    while (someFlag &amp;&amp; Limits.getScriptStatements() + 1000 &lt; Limits.getLimitScriptStatements()) {
+        //do something that takes 1000 script statements
+        //maybe set someFlag to false, maybe not
+    }</pre>
+<p dir="ltr"><span style="font-size: 13px">This code is as pretty as the code above, and it will now also not work.  However, if we chose to return zero for the limit call, this loop would be like that Titanic song: it would go on and on.  That song was terrible, and so is an infinite loop &#8211; you don’t want either of them to happen to you.  (Note: any opinions on Celine Dion songs are my own and do not reflect Salesforce’s official stance on Celine Dion.)</span></p>
+<p dir="ltr">The alternative is to return a value that is larger than what you thought the limit would be.  This will terminate the loop earlier than you might want, but at least the code will terminate.  This means less infinite looping and less load on our service and thus faster operation for everyone.  However, it appears that there are places where developers have wrapped their entire code in this type of flow control. In these cases, no code is ever going to execute, causing an aging Mick Jagger to start prancing around singing “Start me up!”  (Again, any opinions on an aging Mick Jagger are my own and do not reflect Salesforce’s official stance on the aging process of English rock people.)</p>
+<h1>Clever Hack</h1>
+<p dir="ltr">Since returning either of these options is bad, we are going to make a change to the return value.  We are going to convert your cpu usage against the limit into an equal ratio of script statements against the limit.  We are essentially going to mimic the statement counting by using the cpu usage.  Since the cpu timeout is our backstop that replaced script counting for service protection, this is the closest we can get to giving you a fake value that is not dangerous or terminal.</p>
+<p dir="ltr">Please keep in mind that this number is not what it says it is.  It is NOT the number of statements.  It is a representation of what the statement count might have been, relative to your limit.  It will, in nearly every situation, undercount the number of statements done. The intention with this mimicry is to allow your code to probably do what it used to do without an immediate failure.</p>
+<h1>Your Mission, Should You Choose To Accept It&#8230;</h1>
+<p dir="ltr">The purpose of this clever hack is to buy you a little time.  Given that the method’s return value is wrong, and isn’t what you think it is, you should look through your code and do your best to remove calls to this statement. I can&#8217;t fix your code for you &#8211; there is too much of it!! But I trust you to do the needful.</p>
+<p dir="ltr">You can still do flow control in a very similar way!  We have replaced script statement counting with a CPU timeout, so you can track towards that instead of towards statements.  The flow control that I first mentioned could very quickly be rewritten as follows:</p>
+<pre>    if (Limits.getCpuTime() + 1000 &lt; Limits.getLimitCpuTime()) {
+        //do something that takes maybe 850 or 900 milliseconds
+    } else {
+        //exit gracefully
+    }</pre>
+<p dir="ltr"><span style="font-size: 13px">In the end, regardless of what we chose, you are going to look at your code and say, “Dang, I don’t need this anymore, let me get rid of this!” Or perhaps, “Dang, I should be doing the same thing, but checking the CPU timer!”  Or even, “Dang, that is some good-looking code!”  Either way, you will be safer removing the call to the getScriptStatements method and replacing it with whatever is relevant to your custom logic.</span></p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/zTONwPxQg8Q" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/engineering/2014/02/script-statement-hangover.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/engineering/2014/02/script-statement-hangover.html</feedburner:origLink></item>
+		<item>
+		<title>The Kid That Beat the Pros at their Own Game</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/lUCbmP09wjI/the-kid-that-beat-the-pros-at-their-own-game.html</link>
+		<comments>http://blogs.developerforce.com/isv/2014/02/the-kid-that-beat-the-pros-at-their-own-game.html#comments</comments>
+		<pubDate>Fri, 14 Feb 2014 14:44:25 +0000</pubDate>
+		<dc:creator>Jennifer Hersom</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://30.10831</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/isv/2014/02/the-kid-that-beat-the-pros-at-their-own-game.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1392429991/hotel-ninjas_t02hyz.png" class="alignleft wp-post-image tfe" alt="" title="" /></a>Imagine you have a toddler. Like any good parent, you know that your toddler is better than the rest. More talent. More smarts. So, what&#8217;s next? Obviously, your little guy is ready for the World Cup. You may be thinking that this sounds a little ridiculous. However, that&#8217;s just what the startup Hotel Ninjas did. [...]]]></description>
+				<content:encoded><![CDATA[<p>Imagine you have a toddler. Like any good parent, you know that your toddler is better than the rest. More talent. More smarts. So, what&#8217;s next? Obviously, your little guy is ready for the World Cup.</p>
+<p>You may be thinking that this sounds a little ridiculous. However, that&#8217;s just what the startup Hotel Ninjas did. In less than 15 months, Hotel Ninjas built an app on the Salesforce1 Platform and competed in  – and won – deals over competitors that have 20 to 30 years of experience in the hospitality industry.</p>
+<p>Soccer (football) is a big sport in Spain, but Barcelona-based Hotel Ninjas is in a league all of its own. You can find Hotel Ninjas’ app on the AppExchange <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B3n86EAB" target="_blank">here</a>.</p>
+<p><a title="Hotel Ninjas on the AppExchange" href="https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B3n86EAB" target="_blank"><img class="alignnone wp-image-10841" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1392429991/hotel-ninjas_t02hyz.png" width="645" height="170" /></a></p>
+<p>&nbsp;</p>
+<p><b>Talk isn&#8217;t cheap. It&#8217;s a steal.</b></p>
+<p>Quick. Think of an industry that is embracing next generation technologies and revolutionizing the business landscape. Did you say property management software? Probably not. So, how do you get an industry that has applications that aren&#8217;t just legacies, but Luddites, to embrace revolutionary technologies?  According to Hotel Ninjas co-founder Christian Eneström, it’s easy. You talk to them.</p>
+<p>&#8220;Before we actually started building any code, we talked to more than 100 potential customers. We wanted to understand their needs and understand what technology they used and what they were expecting from the more updated technology. You need to first understand what your customers need before you actually build something. This way, rather than developing something your clients will never use, when you take your product to market, it’s more likely that your clients will actually use your product.&#8221;</p>
+<p><b>Players are made, not born.</b></p>
+<p>In soccer, players aren&#8217;t born kicking balls at 65 mph. For Hotel Ninjas, the biggest challenge is finding good developers. Force.com <span style="font-family: Arial">developers are in high demand</span>. Instead of hiring only Force.com developers, Hotel Ninjas also looks for good Java developers. &#8220;We use our own test platform to get to know the coding skills of candidates. We use that to screen out good developers from the others. We take them in-house and train them on Apex and Visualforce.&#8221;  Many Java developers have enterprise experience, and Apex is a very Java-like language that is designed for the cloud and multi-tenant environments like the Salesforce1 platform. This combination accelerates learning and produces high calibre candidates.</p>
+<p><b>Mobile is a green field opportunity.</b></p>
+<p>Mobile technology is opening up an untouched green field opportunity for Hotel Ninjas. &#8221;In terms of technology, [hotel management systems] are 10 years behind other industries,&#8221; Eneström notes. Hotel Ninjas is growing that opportunity in two ways: from inside the property and from outside the property.</p>
+<p>Many of Hotel Ninjas&#8217; clients own a property somewhere other than where they live. &#8220;So, building that mobile experience for them is a big advantage. Creating a mobile hub for our customers to access all of their data and manage their properties from anywhere and with any device is key,&#8221; Eneström said.</p>
+<p>Inside a property, Hotel Ninjas is creating new workflows. For example, housekeeping. The housekeeper can check a mobile app updated by the front office and see that the room has already been cleaned. &#8220;This is a great example of how mobile can help you work more efficiently within the property.&#8221;</p>
+<p>Hotel Ninjas is quickly emerging as one of the hospitality industry’s hottest players. By listening to customers, creating a stellar team and creating new opportunities with mobile, Hotel Ninjas is on the path to become a legend.</p>
+<p>Learn more about <a title="Hotel Ninjas' app on the AppExchange " href="https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B3n86EAB" target="_blank">Hotel Ninjas&#8217; app on the AppExchange</a> or about <a title="Salesforce Partners" href="http://www.salesforce.com/partners" target="_blank">becoming a Salesforce.com partner</a>.</p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/lUCbmP09wjI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/isv/2014/02/the-kid-that-beat-the-pros-at-their-own-game.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/isv/2014/02/the-kid-that-beat-the-pros-at-their-own-game.html</feedburner:origLink></item>
+		<item>
+		<title>Power the Largest ISV Apps with Heroku XL</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/OafjC-XuyOI/power-largest-apps-heroku-xl.html</link>
+		<comments>http://blogs.developerforce.com/isv/2014/02/power-largest-apps-heroku-xl.html#comments</comments>
+		<pubDate>Wed, 12 Feb 2014 23:58:27 +0000</pubDate>
+		<dc:creator>Nicolas Pujol</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://30.10041</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/isv/2014/02/power-largest-apps-heroku-xl.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_pad,g_south_east,w_100/v1392070745/xl-developerforce_blog-logo-400x400_cn3kwh.png" class="alignleft wp-post-image tfe" alt="" title="" /></a> Salesforce customers and ISVs are experiencing tremendous growth. Their apps are being consumed by more users and receiving more traffic than ever. And as usage grows, those users expect the apps to have the same speed and responsiveness that they have come to expect. To address this need we are introducing a new tool for [...]]]></description>
+				<content:encoded><![CDATA[<p><img class="wp-image-10161 alignleft" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_pad,g_south_east,w_100/v1392070745/xl-developerforce_blog-logo-400x400_cn3kwh.png" width="100" height="100" /> Salesforce customers and ISVs are experiencing tremendous growth. Their apps are being consumed by more users and receiving more traffic than ever. And as usage grows, those users expect the apps to have the same speed and responsiveness that they have come to expect. To address this need we are introducing a new tool for ISVs to scale their apps: Heroku XL. It’s easy to get started on Force.com, release an app and scale as it gets traction. Heroku operates the same way: signup, develop the app then scale it when more customers show at the door. With Heroku XL anyone can take advantage of Heroku to power the most demanding enterprise or consumer application on the internet.</p>
+<p>Heroku XL introduces increased ability to control performance. Dynos, used for compute resources, are now available in 1X, 2X, and Performance Dynos named “PX” in the command line interface. Performance dynos increase app concurrency via a larger available memory pool and are highly isolated. They include much more compute power and visibility into the app’s performance.</p>
+<p><img class="alignnone wp-image-10141" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1392070665/xl-developerforce_blog-force_heroku-800w_igyrbw.png" width="800" height="391" /></p>
+<p>To your customers visiting the app, the benefits of Heroku XL include faster load time, low latency and the ability to use your app without disruption when everyone&#8217;s hitting it. They are backed by 24&#215;7 support for the highest uptime. If you are building in Java, Python, Ruby, Node.js, Scala or PHP, you can build and run it all on the <a href="http://www.salesforce.com/platform/overview/" target="_blank">Salesforce1 Platform</a>: Force.com for declarative development, Heroku for programmatic development, and ExactTarget Fuel for Marketing automation.</p>
+<p>Check the detailed specifications on the <a href="https://blog.heroku.com/archives/2014/2/3/heroku-xl" target="_blank">blog post</a> and the official page at <a href="https://www.heroku.com/xl" target="_blank">heroku.com/xl</a>.</p>
+<p>&nbsp;</p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/OafjC-XuyOI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/isv/2014/02/power-largest-apps-heroku-xl.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/isv/2014/02/power-largest-apps-heroku-xl.html</feedburner:origLink></item>
+		<item>
+		<title>Women in Tech: Smalltalk to Apex == Writing Less Code</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/VmnfztbIWso/women-in-tech-smalltalk-to-apex-writing-less-code.html</link>
+		<comments>http://blogs.developerforce.com/developer-relations/2014/02/women-in-tech-smalltalk-to-apex-writing-less-code.html#comments</comments>
+		<pubDate>Wed, 12 Feb 2014 13:42:04 +0000</pubDate>
+		<dc:creator>Mary Scotton</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[apex code]]></category>
+		<category><![CDATA[developer]]></category>
+		<category><![CDATA[Dreamforce 2013]]></category>
+		<category><![CDATA[women in tech]]></category>
+
+		<guid isPermaLink="false">http://26.46941</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/developer-relations/2014/02/women-in-tech-smalltalk-to-apex-writing-less-code.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_200/v1391112659/Deanna-large_ogqwc2.jpg" class="alignleft wp-post-image tfe" alt="" title="" /></a>What happens when a Smalltalk programmer becomes a Salesforce Platform developer? She writes less code! Deanna Simpson started developing on the Salesforce Platform four years ago, after four years in Silicon Valley coding control systems for a fiber-optic switch company and a few years in Canada in various roles.  Recently I had an opportunity to sit down with Deanna and discuss her journey.]]></description>
+				<content:encoded><![CDATA[<p><img class="alignleft wp-image-46981" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_200/v1391112659/Deanna-large_ogqwc2.jpg" width="200" height="280" /></p>
+<p>Welcome to the second in a <a title="WIT series" href="http://blogs.developerforce.com/developer-relations/tag/women-in-tech" target="_blank">series</a> of posts highlighting women developers. I&#8217;m trying to get a better understanding of the under-representation of women in STEM fields, so I&#8217;ve been reaching out to our community.  What I&#8217;m finding is that women are out there, coding away, and I want to share their stories and advice.</p>
+<p>Recently I had an opportunity to sit down with <a title="Deanna" href="http://www.linkedin.com/in/deannasimpson" target="_blank">Deanna Simpson</a> to discuss her journey, and I found out what happens when a Smalltalk programmer becomes a Salesforce Platform developer: she writes less code! Deanna started developing on the Salesforce Platform four years ago, after four years in Silicon Valley coding control systems for a fiber-optic switch company and a few years in Canada in various roles.</p>
+<p><strong>How did you learn to code?</strong></p>
+<p>I have a degree in Computer Science and Philosophy, believe it or not, and I was actually one of those rare computer scientists who didn&#8217;t like playing video games. I rather enjoyed approaching it from the logic point of view, which is how I came into it. I started in philosophy studying theoretical logic and then my father said, &#8220;Eating is habit forming, so perhaps you should acquire a skill that will allow you to be employed.&#8221;</p>
+<p>The natural application of logic was computer science. When I started out in computer science there were 100 first year students of whom three were women. I was one of them. So, really, we were just one of the guys, and you really had to be, you can&#8217;t set yourself apart because you are so interdependent with the class.</p>
+<p>My first programming job was developing control systems for a fiber-optic switch company. And, because I can speak with people as well as speak with computers, I would gather requirements, write up the documentation, train people, and do that sort of thing. So I was &#8220;chief, cook, and bottle washer&#8221; on small projects and I really enjoyed that. I enjoyed getting down and solving the problem with code, but also enjoyed helping someone solve a problem, and seeing them say &#8220;Yeah, that&#8217;s what I want, that&#8217;s exactly what I want!&#8221;   That&#8217;s still what drives me &#8211; talking to someone and saying &#8220;What is it you really need? What is the pain point for you? What hurts?&#8221; They start describing it to me, and I can come up with a solution that will solve that problem.</p>
+<p><strong>How did you get started with Force.com?</strong></p>
+<p>I worked in Silicon Valley for four years, and then I came back to Canada to start a family. I was doing development, and was also supporting other programmers and developing small tools for them. Then someone asked me to set up a support process for a startup, and I thought it would be a good opportunity to get into management. In that job I had to find a system to implement a service cloud. I evaluated a bunch and chose Salesforce, and then I implemented it for them. I realized that I really love getting my hands dirty, and organizing a project, but that I really didn&#8217;t want to manage people; it&#8217;s just not my thing. I get a sense of accomplishment by solving a problem: that&#8217;s the part I like the best.  So, I focused on implementing Salesforce solutions.</p>
+<p><strong>How did you learn Apex Code?</strong></p>
+<p>I was the one who had to do the Service Cloud implementation, so I taught myself to code in Apex, with the help of Premier Support. We had one use case where we needed a trigger on Chatter posts. That was my first project in Apex.</p>
+<p><strong>How was the learning curve coming from Smalltalk?</strong></p>
+<p>Between you, me, and the lamp post, it is harder to debug Apex. With Smalltalk, I could put a breakpoint in and run the program step-by-step and change the inputs along the way, debugging it as it ran. Also, the syntax is very different from Smalltalk: Smalltalk looks like English, Apex looks like Java.</p>
+<p>However, because Smalltalk and Apex are both object-oriented, there wasn&#8217;t a huge paradigm shift. Once you learn the development tools, it&#8217;s really quite straightforward. Plus, it&#8217;s not just a language &#8212; it&#8217;s really a framework, so you can do a great deal with very little code. The biggest upside for me was that I could code anywhere because everything was cloud-based!</p>
+<p><strong>You have four Salesforce certifications. When did you get those?</strong></p>
+<p>I got my Admin when I was setting up that first Service Cloud, and then when I decided to go into contracting, I added on the Dev, because that&#8217;s of course my interest. And then I added Service Cloud Consultant and finally Sales Cloud Consultant. It was about gathering the information I needed to run a whole project and see it from a 10,000 foot view as opposed to just solving the problems as I came across them.</p>
+<p>Most of the development has been at the configuration level and less at the Apex level. I&#8217;ve only had to use Apex when I&#8217;ve hit a limitation and had to get around it.</p>
+<p><strong>How does it feel to you as a developer that you have to point &amp; click to get so much done, rather than coding?</strong></p>
+<p>I think it&#8217;s fantastic because it allows people to configure their system even if they&#8217;re not a developer. I think that&#8217;s really powerful. We have to push the control down so the developers can focus on the things that are not out of the box. Having the configuration, as opposed to coding, means you&#8217;re not going to write spaghetti code, and it means you aren&#8217;t going to make really really bad design decisions, as easily. It guides people in a direction: you have this choice, this choice and this choice. While with code, the world is your oyster: you can do just about anything, which means you can do really silly things as well.</p>
+<p><strong>I&#8217;ve met many admins who are interested in learning to code. What is your advice to them?</strong></p>
+<p>Find a very small problem that needs to be solved and figure out what to do to solve that problem. Rather than getting a whole bunch of broad basic information, you actually focus on what you need to do to solve that problem. That will enable you to get an idea of how Apex is used in context as opposed to a 10,000 foot view, especially if you have no coding experience. Solve a small problem, then solve another small problem, and keeping adding to what you learn each time.</p>
+<p><strong>Did you attend Dreamforce &#8217;13? If so, what was your favorite thing?</strong></p>
+<p>Yes. This was my second Dreamforce. I loved the DevZone! I loved the <a title="IoT recap" href="http://blogs.developerforce.com/developer-relations/2013/11/iot-at-dreamforce-connected-device-lab-wrap-up-devzonelab.html" target="_blank">Internet of Things</a> &#8211; the one where we actually had a chance to plug in a board and work with it. I loved the mini-hacks, you had these little cards and were sitting there trying to solve the same problem alongside other people. It felt like university to me.  Like being in the computer science building, and everyone was just hanging out and coding, and you could ask anyone anything.</p>
+<p><img class="aligncenter wp-image-47801" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1391525379/ConnectedLab_okikse.png" width="438" height="276" /></p>
+<p>Also, I brought my eldest daughter, Aila, with me. She is 13 and I taught her to code in Smalltalk at age 8.  She mostly did her homework while I was at my events. One evening, I took her out to the <a title="Girly Geeks chatter group" href="https://success.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F9300000001oES" target="_blank">Girly Geeks</a> dinner [hosted by <a title="Deepa on Twitter" href="https://twitter.com/HalakConsulting" target="_blank">Deepa Patel</a>] and she met all these women who are just normal people, who also happen to be engineers and computer scientists. For her, it was eye-opening because yes, Mum is a bit strange and geeky, but these women all do the same thing and they&#8217;re normal. She&#8217;s very comfortable with science and math and she said to me, &#8220;Mom, I&#8217;m not going to be a geek like you when I grow up. I think I&#8217;m going to be an engineer instead.&#8221;</p>
+<p>I feel that we really do have to pass this on to our kids. My mother grew up saying &#8220;I&#8217;m not logical. I&#8217;m not good at math.&#8221; And the funny thing is she&#8217;s <em>really</em> logical and <em>really</em> good at math. But, she was told from an early age that girls aren&#8217;t logical and they aren&#8217;t good at math. It&#8217;s important to me for Aila to see herself as good at math and science, and I think we have to expose all girls to the potential of a career in technology. We&#8217;re missing out on half the workforce if we don&#8217;t.</p>
+<p><strong>Hanging out in the DevZone is a microcosm of the Salesforce Developer Community. What is the community like outside of Dreamforce?</strong></p>
+<p>People who love to code love to help other people solve problems, too, so I find that they really are open to helping each other. I have a bunch of developer friends who come to me saying &#8220;I have this problem can you help me solve it?&#8221; And even though it&#8217;s not my problem, I&#8217;m interested in finding out the solution. And if I call them up and say &#8220;How do you do this?&#8221; they&#8217;re interested in helping, just because they&#8217;re interested in problem-solving. I also use the <a title="Discussion Board" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&amp;criteria=ALLQUESTIONS" target="_blank">Developer Discussion Board</a>, and I find that the developers there are great.</p>
+<p><strong>What&#8217;s next for you?</strong></p>
+<p>I want to get back into doing hardcore development in Apex and developing new applications. I&#8217;d also love to go and explore more about the Internet of Things. I am a maker at heart.</p>
+<p><em>[Author's Note: Deanna, and anyone else interested in the Internet of Things, should follow <a title="Reid on Twitter" href="https://twitter.com/ReidCarlberg" target="_blank">@reidcarlberg</a> on Twitter (he has the ability to <a title="ThingMonk" href="http://blogs.developerforce.com/developer-relations/2013/12/salesforce-iot-thingmonk-the-frankencoffee.html" target="_blank">make copters fly using coffee</a>) and get their feet wet with an <a title="Starter Pack" href="http://www.adafruit.com/products/68" target="_blank">arduino starter pack from Adafruit</a>.]</em></p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/VmnfztbIWso" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/developer-relations/2014/02/women-in-tech-smalltalk-to-apex-writing-less-code.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/developer-relations/2014/02/women-in-tech-smalltalk-to-apex-writing-less-code.html</feedburner:origLink></item>
+		<item>
+		<title>Monitoring Your Deployments in Salesforce Just Got Easier!</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/bDK4tWUN-1w/monitoring-your-deployments-in-salesforce-just-got-easier.html</link>
+		<comments>http://blogs.developerforce.com/tech-pubs/2014/02/monitoring-your-deployments-in-salesforce-just-got-easier.html#comments</comments>
+		<pubDate>Tue, 11 Feb 2014 20:55:49 +0000</pubDate>
+		<dc:creator>Katia Hage</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Apex tests]]></category>
+		<category><![CDATA[deploy]]></category>
+		<category><![CDATA[deployment]]></category>
+		<category><![CDATA[Metadata API]]></category>
+		<category><![CDATA[monitoring]]></category>
+
+		<guid isPermaLink="false">http://28.11161</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/tech-pubs/2014/02/monitoring-your-deployments-in-salesforce-just-got-easier.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1390957834/deploy_blog_two_errors_in_progress_up97vw.png" class="alignleft wp-post-image tfe" alt="" title="" /></a>The new user interface in Spring &#8217;14 for monitoring Metadata API-based deployments in Salesforce allows you to do a lot more than ever before. Previously, you couldn’t inspect the errors of in-progress deployments in real time. Completed deployments that failed were shown but without any detailed error messages. Now, with the redesigned deployments page, you [...]]]></description>
+				<content:encoded><![CDATA[<p>The new user interface in Spring &#8217;14 for monitoring Metadata API-based deployments in Salesforce allows you to do a lot more than ever before. Previously, you couldn’t inspect the errors of in-progress deployments in real time.  Completed deployments that failed were shown  but without any detailed error messages. Now, with the redesigned deployments page, you can get access to all this and more! You can drill down through the list of component errors and test failures whether your deployment is still running or has finished, identify long-running tests, find out which test is currently running, and so on. Note that this page shows deployments started via the deploy() metadata API, which includes Force.com IDE, Force.com Migration Tool, but not change sets.</p>
+<p>In this blog, I’m going to show you what you can do with the Deployment Status page by going through some scenarios.</p>
+<h1>Checking the Status of an In-Progress Deployment</h1>
+<p>First off, I started a deployment with 450 components. The Deployment Status page shows this deployment as in progress and I see that my deployment already has 2 errors and hasn&#8217;t completed yet.  </p>
+<p><img src="http://res.cloudinary.com/hzxejch6p/image/upload/v1390957834/deploy_blog_two_errors_in_progress_up97vw.png" class="alignnone wp-image-31" width="1050" height="352"></p>
+<p>Hmm… I wonder what’s going on. Let me check by clicking View Errors for the in-progress deployment. I am presented with a list of all errors encountered so far while the deployment is still running. In my case, I get the following two errors as you can see below.  </p>
+<p><img src="http://res.cloudinary.com/hzxejch6p/image/upload/v1390957860/deploy_blog_two_errors_in_progress_detail_wvqf5l.png" class="alignnone wp-image-51" width="1048" height="556"></p>
+<p>The first error is about a relationship name used in a method in an Apex class. This looks like it&#8217;s a typo and I can modify  the Apex method to use the right relationship name for the custom object, in my case Book__r.</p>
+<p>The second error is also in a method in another Apex class. Obviously, the field name has been misspelled. The field name should be BillingState.</p>
+<p>Now, I can start fixing those errors without waiting for the deployment to finish. If more errors are encountered while the deployment is running, I can click View Errors again in the Deployment In Progress section to see any new component errors. After the deployment finishes, the Deployment Details page will show the list of all errors encountered for the deployment. </p>
+<p>Because two-thirds of the components have already been processed in my deployment, it&#8217;s likely that there aren’t any other errors. I take a chance and decide to cancel this deployment. After fixing the two errors, I click Cancel in the Deployment In Progress section. Now, I’m going to restart the deployment and hope for green donuts (no errors) and a successful deployment!</p>
+<h1>Will my Components Require Apex Tests?</h1>
+<p>Let’s say I want to know if my components will require tests when deployed to production. To find out, I’m going to start a validation-only deployment to production, which won’t commit any components. I am deploying a custom application component, two reports, and a dashboard. The Apex tests donut chart shows “Not Required”. So this tells me that I don’t need to write any Apex tests for deploying my components to production.</p>
+<p><img src="http://res.cloudinary.com/hzxejch6p/image/upload/v1390958082/deploy_blog_tests_not_required_bmmssx.png" class="alignnone wp-image-61" width="1047" height="366"></p>
+<h1>Finding the Slow Culprits</h1>
+<p>Have you encountered a situation when test runs are taking a long time and you don&#8217;t know the culprit? Worry no more. The Details page of a deployment flags slow Apex tests that are delaying your deployment. The Details page shows the top five tests that ran for more than two minutes. This can happen if you have an Apex test that’s not following performance best practices and is working on a large data set. Knowing which test to modify is now easier. In the below image, you can see that my completed deployment has one slow test that ran for over 14 minutes.</p>
+<p><img src="http://res.cloudinary.com/hzxejch6p/image/upload/v1390959758/deploy_blog_long_running_test_jvspi9.png" class="alignnone wp-image-111" width="1049" height="461"></p>
+<p>Now that I know which test is slow, I can investigate what I can do to improve its performance. There are several causes for slow performance. For example, accessing organization data instead of using test data can be one reason. Also, having a test that exercises SOQL queries or Apex code with bad performance in triggers and classes is another cause for long execution times. Check out the <a href="#resources">Related Resources</a> section for resources about Apex and SOQL performance best practices.</p>
+<h1>Viewing Apex Test Results</h1>
+<p>When all components have been deployed successfully, Apex tests are run. The below deployment has many test failures. I can view the error message for each test failure in the Details page. Also, the Details page has a code coverage warning informing me that my tests didn’t reach the required 75% code coverage for deployment. I have 51% code coverage and one Apex trigger has no coverage at all (0%). This means that I need to go back and write some more tests before attempting to redeploy! </p>
+<p><img src="http://res.cloudinary.com/hzxejch6p/image/upload/v1391548308/deploy_blog_test_failures_code_coverage__nspwc1.png" class="alignnone wp-image-431" width="1046" height="735"></p>
+<h1>Summary</h1>
+<p>I hope this blog post enabled you to see the many benefits of the Deployment Status page and that you&#8217;ll start using it!</p>
+<h1><a id="resources">Related Resources</a></h1>
+<p><b>Metadata API</b></p>
+<ul>
+<li><a href="http://www.salesforce.com/us/developer/docs/api_meta/" title="Metadata API Developer’s Guide" target="_blank">Metadata API Developer’s Guide</a></li>
+</ul>
+<p><b>Performance Tuning</b></p>
+<ul>
+<li><a href="http://www.salesforce.com/us/developer/docs/apexcode/Content/apex_testing_data_access.htm" title="Isolation of Test Data from Organization Data in Unit Tests" target="_blank">Isolation of Test Data from Organization Data in Unit Tests</a></li>
+<li><a href="http://www.salesforce.com/us/developer/docs/apexcode/Content/langCon_apex_SOQL_VLSQ.htm" title="Working with Very Large SOQL Queries" target="_blank">Working with Very Large SOQL Queries</a></li>
+<li><a href="http://wiki.developerforce.com/page/Apex_Code_Best_Practices" title="Apex Code Best Practices" target="_blank">Apex Code Best Practices</a>
+<li><a href="http://wiki.developerforce.com/page/Webinar:_Inside_the_Force.com_Query_Optimizer_(2013-Apr)" title="Webinar: Inside the Force.com Query Optimizer" target="_blank">Webinar: Inside the Force.com Query Optimizer</a></li>
+<li><a href="http://help.salesforce.com/help/pdfs/en/salesforce_query_search_optimization_developer_cheatsheet.pdf" title="Query and Search Optimization Cheat Sheet" target="_blank">Query and Search Optimization Cheat Sheet</a></li>
+<li><a href="http://blogs.developerforce.com/engineering/2013/05/force-com-performance-profiling-using-the-developer-console.html" title="Force.com Performance Profiling Using the Developer Console" target="_blank">Force.com Performance Profiling Using the Developer Console</a></li>
+<li><a href="http://events.developerforce.com/conferences/dreamforce?session=27321" title="Performance Tuning for Visualforce and Apex Webinar" target="_blank">Performance Tuning for Visualforce and Apex Webinar</a></li>
+<li><a href="http://wiki.developerforce.com/page/Architect_Core_Resources" title="Architect Core Resources" target="_blank">Architect Core Resources</a></li>
+</ul>
+<p></p>
+<h1>Acknowledgments</h1>
+<p>Thanks to my colleagues <a href="https://success.salesforce.com/profile?u=00530000001talPAAQ" target="_blank">Ganesh Mathrubootham</a> and <a href="https://success.salesforce.com/Profile?u=005300000036M0O" target="_blank">Kunal Vyas</a> for their help with this blog post.</p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/bDK4tWUN-1w" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/tech-pubs/2014/02/monitoring-your-deployments-in-salesforce-just-got-easier.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/tech-pubs/2014/02/monitoring-your-deployments-in-salesforce-just-got-easier.html</feedburner:origLink></item>
+		<item>
+		<title>Coder Day of Service Recap</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/I4rY57VRf4A/coder-day-of-service-recap.html</link>
+		<comments>http://blogs.developerforce.com/developer-relations/2014/02/coder-day-of-service-recap.html#comments</comments>
+		<pubDate>Fri, 07 Feb 2014 21:58:17 +0000</pubDate>
+		<dc:creator>Mary Scotton</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[coding for good]]></category>
+		<category><![CDATA[developer]]></category>
+		<category><![CDATA[non-profit]]></category>
+
+		<guid isPermaLink="false">http://26.48191</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/developer-relations/2014/02/coder-day-of-service-recap.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_150/v1391808229/photo_25_l34eio.jpg" class="alignleft wp-post-image tfe" alt="" title="" /></a>Martin Luther King Weekend was a weekend of service for many, and for the Coder Day of Service participants, that service was to fix or write code for one of the 50+ social good organizations on the CodeMontage platform. The energy all day was positive and good-natured.]]></description>
+				<content:encoded><![CDATA[<p><img class="alignleft wp-image-48331" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_150/v1391808229/photo_25_l34eio.jpg" width="150" height="200" />Martin Luther King Weekend was a weekend of service for many, and for the <a title="Coder Day" href="https://www.codemontage.com/coder_day" target="_blank">Coder Day of Service</a> participants, that service was to fix or write code for one of the 50+ social good organizations on the <a title="CodeMontage" href="https://www.codemontage.com/projects" target="_blank">CodeMontage platform</a>. The energy all day was positive and good-natured. No elbowing to get to the handmade bagged lunches with love notes from Mom in them, no grumbling about internet connections, just people partnering with people they&#8217;d just met, to solve a problem for an organization that they don&#8217;t work for.</p>
+<p>CodeMontage believes that coders are superheroes and empowers coders to improve their impact on the world. This day was a continuation of <a title="Vanessa Hurst" href="http://vanessahurst.com/" target="_blank">Vanessa Hurst&#8217;s</a> commitment to coding for good, which includes founding <a title="Devs for Good" href="http://developersforgood.org/" target="_blank">Developers for Good</a>.</p>
+<p>I enjoyed the inspirational keynotes from Vanessa Hurst, <a title="Julie" href="http://julieannhorvath.com/" target="_blank">Julie Ann Horvath</a>, and <a title="John" href="http://ejohn.org/" target="_blank">John Resig</a> that began the day on a positive high. Here are <a title="Julie's talk" href="http://storify.com/CodeMontage/julie-ann-horvath-coder-day-of-service-keynote" target="_blank">Julie&#8217;s talk</a> and <a title="John's talk" href="http://storify.com/CodeMontage/john-resig-coder-day-of-service-keynote" target="_blank">John&#8217;s talk</a>.</p>
+<p>Some stats from CodeMontage about the day’s success:</p>
+<ul>
+<li>175 people attended in NYC</li>
+<li>40+ coders contributed remotely through the CodeMontage platform</li>
+<li>42% of participants were women coders</li>
+<li>1200+ hours were contributed on projects</li>
+<li>50+ social good organizations received contributions and visibility for their open source projects</li>
+</ul>
+<p><img class="aligncenter wp-image-48421" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1391810199/CoderDayBalloons_fb5ppc.jpg" width="450" height="298" /></p>
+<p>Also, here&#8217;s a great <a title="video" href="http://vimeo.com/85846616" target="_blank">summary video</a> of the day.</p>
+<p>The Salesforce1 Platform sponsored the event to support coding for good and to get the word out about the Salesforce Foundation&#8217;s <a title="Power of Us" href="http://www.salesforcefoundation.org/power-of-us" target="_blank">Power of Us</a> program which gives 10 Salesforce licenses away for free to non-profits. The Salesforce Foundation also manages an open source project, the <a title="NPSP" href="https://github.com/SalesforceFoundation" target="_blank">Non-Profit Starter Pack</a>, that tailors Salesforce&#8217;s CRM app to the needs of small and medium non-profits.  The next version, codename <a title="cumulus" href="https://github.com/salesforcefoundation/cumulus" target="_blank">Cumulus</a>, is coming soon.</p>
+<p>At our Salesforce1 booth, <a title="ryan" href="https://twitter.com/ryanjupton" target="_blank">Ryan Upton</a>, <a title="heidi" href="https://twitter.com/nyc32ean" target="_blank">Heidi Connell</a>, and I encouraged coders and non-coders to try building a mobile app with Salesforce1.</p>
+<p><img class="aligncenter wp-image-48231" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_250/v1391808229/photo_26_iuuojd.jpg" width="250" height="334" />Alex (pictured above, showing off his app and his new hoodie) was the first to complete his app, and our youngest mobile app builder was 13 years old, attending with his mom, a Java developer.</p>
+<p>Overall, it was a great day with great people&#8230;including these two:</p>
+<p><img class="aligncenter wp-image-48261" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_300/v1391809499/PhotoBooth_vx4qwf.jpg" width="300" height="450" /></p>
+<p>&nbsp;</p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/I4rY57VRf4A" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/developer-relations/2014/02/coder-day-of-service-recap.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/developer-relations/2014/02/coder-day-of-service-recap.html</feedburner:origLink></item>
+		<item>
+		<title>Women in Tech: Going From Excel Hacker to Force.com Developer</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/ES-nXpVhsRg/women-in-tech-going-from-excel-hacker-to-force-com-developer.html</link>
+		<comments>http://blogs.developerforce.com/developer-relations/2014/02/women-in-tech-going-from-excel-hacker-to-force-com-developer.html#comments</comments>
+		<pubDate>Wed, 05 Feb 2014 13:26:46 +0000</pubDate>
+		<dc:creator>Mary Scotton</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[developer]]></category>
+		<category><![CDATA[Dreamforce 2013]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[women in tech]]></category>
+
+		<guid isPermaLink="false">http://26.45611</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/developer-relations/2014/02/women-in-tech-going-from-excel-hacker-to-force-com-developer.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_250/a_270/v1391444262/photo_2_1_yofhtf.jpg" class="alignleft wp-post-image tfe" alt="" title="" /></a>Today, I'm kicking off a blog series highlighting women developers. First up is Kristine Hankins (@kristinehankins). She represents a persona I see a lot: self-starter-power-user-turns-admin-then-coder. She also wears her WITbot t-shirt with pride. I asked her to share her story.]]></description>
+				<content:encoded><![CDATA[<p><img class="alignleft wp-image-47431" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_250/a_270/v1391444262/photo_2_1_yofhtf.jpg" width="250" height="250" />When I moved from Platform Product Management to Developer Evangelism last May, the first thing I noticed at developer events was there were fewer women than I was used to seeing at Salesforce admin events. At the same time, the news seemed filled with articles about Women in Tech, encouragement for women to lean in, and statistics about the under-representation of women and people of color in STEM fields. I was curious, and I started reaching out to get a better understanding of our developer community. Today, I&#8217;m kicking off a blog series highlighting women developers, because they are definitely out there, and I want to share their stories and advice.</p>
+<p>First up is <a title="Kristine on LinkedIn" href="http://www.linkedin.com/profile/view?id=167785589" target="_blank">Kristine Hankins</a> (<a title="Kristine on Twitter" href="https://twitter.com/kristinehankins" target="_blank">@kristinehankins</a>), who I actually shared a cab with two years ago on my way home from a NYC Developer User Group (DUG) meetup, and then had a chance to chat with again recently at the NYC Post-Salesforce1 Tour drinkup. She represents a persona I see a lot: <em>self-starter-power-user-turns-admin-then-coder</em>. She also wears her WITbot t-shirt with pride. I asked her to share her story.</p>
+<p><strong>How did you learn to code?</strong></p>
+<p>My experience “began” in Microsoft Excel, where I did data entry and reconfigured the data using a macro. I thought “this is cool, but let me see what the guts look like”, so I would open the macros in Visual Basic editor and look through the logic, and then started to modify that code. I used VBA to streamline a process that used to take days and days, and I cut it down to 2 hrs. This involved staring at code for hours on end, trying to figure out “what does this do, and if I change it, what happens?”</p>
+<p>I regret never taking Computer Science in school. I was a Chemistry major and had to do a lot of data analysis in the lab. Now that technology is where my career has taken me, I am a little disappointed that I haven’t had more classical instruction.</p>
+<p>Next, I started working in Account Management in that same company, a market research firm. I got roped in by some Account Reps and our VP of Operations, who said “We want to scale up this customer service function around you.” So I did that and I built on it. We collected all of our data in an SPSS database and had Salesforce data working in concert. I started to learn database queries, following recipes and different models, such as how to cross-tab the market research data to deliver more value to clients. At the same time, I was creating business processes in Salesforce for our account retention metrics. I became a primary power user of the CRM and one of its most vocal internal champions.</p>
+<p>As I got more exposure into Salesforce, I got to learn what it could do, and eventually went from power user to Admin.</p>
+<p>That was my turning point. I went into consulting and did declarative development and Admin items, but didn’t touch Apex. My friends cautioned me, if it says “must know Apex” you can’t just pick that up.</p>
+<p>Then, I got this job at <a title="Relationship Science" href="relsci.com" target="_blank">Relationship Science</a>.  We&#8217;re a technology solutions company. A young company, commercially launched in the beginning of 2013.  Within 12 months, we had over 300 clients. It was crucial to have the Salesforce backbone in place.</p>
+<p>When I came in, someone had already written an API-based integration with the help of a consultant. I think everyone expected me to stick with Admin tasks, but as we started to bring in more products, we had these use cases that required more code. I could either have hired the consultants again, or I could try it myself.</p>
+<p>My fiance Adam Ady (he&#8217;s a Salesforce architect) and I went to dinner with <a title="Luke on twitter" href="https://twitter.com/AlwaysThinkin" target="_blank">Luke Cushanick</a> (co-leader of the <a title="NYC DUG" href="http://www.meetup.com/NYC-Salesforce-Developer-Group" target="_blank">NYC DUG</a>) and his wife socially, and I told them, &#8220;Hey guys, I&#8217;m going to write some code.&#8221;  They asked if I was going to do a simple child parent lookup thing, and I said &#8220;no, we have a custom object that is being updated by an API, and we need the Case to query data on the custom object when we do Email-to-Case.&#8221;  They said, &#8220;Why are you doing that as your first coding project?!?&#8221; I said, &#8220;That&#8217;s what the business needs.&#8221;</p>
+<p>There were definitely false starts, but I wrote the code and I got it - online resources were my primary help. I also continued to talk about it socially. I got my last ditch inspiration from <a title="Masha on Twitter" href="https://twitter.com/M_thomas55" target="_blank">Masha Thomas</a> from <a title="2u" href="http://2u.com/" target="_blank">2U</a>. When I talked through the code with her, she said, &#8220;That should work&#8221; and so I kept trying, and finally it did! I was so excited, but I was also so green: I had it working in Sandbox, put it in a Change Set, tried to push it to Production, and then saw:</p>
+<p><img class="aligncenter wp-image-47461" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1391445587/CodeCoverage_ubtqgs.png" width="615" height="59" /></p>
+<p>I didn&#8217;t even know what a test class was!</p>
+<p><strong>Did you attend Dreamforce &#8217;13?</strong></p>
+<p>Yes, it was my first Dreamforce!  It was totally awesome, but I was completely overwhelmed.  I presented a session with the Service Cloud team: <a title="DF13 session" href="http://www.youtube.com/watch?v=s8VQ7Ng2o3o" target="_blank">Small Business: Growing Your Company With Service Cloud &amp; a 360 Customer View</a>.  [Author's Note: this makes Kristine a <a title="Rookie Blog Post" href="http://blogs.developerforce.com/developer-relations/2013/12/dreamforce-13-devzone-session-rookies-ftw.html" target="_blank">Dreamforce ’13 DevZone Session Rookie</a>!]</p>
+<p><strong>What was your favorite part of Dreamforce?</strong></p>
+<p>I spent a lot of time in the DevZone, got a lot of my questions answered, and met a bunch of cool people who were really interested in Salesforce and what it could do.  I am the only one in my company doing Salesforce, and it was nice to see what other people were doing. It was great to network with the other women there, too.</p>
+<p>I was so happy to stumble upon the <a title="WITSalon recap" href="http://blogs.developerforce.com/developer-relations/2013/12/the-power-of-women-dreamforce-13.html" target="_blank">Women in Technology Salon</a>. I went in during the Becoming a Powerful Communicator session, and I thought the discussion was really interesting.</p>
+<p><img class="aligncenter wp-image-47551" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/c_scale,w_500/v1391454522/WITSalon_Communicator2_rpnihh.png" width="500" height="296" /></p>
+<p>When we focus on it being about women, it&#8217;s like we&#8217;re trying to prompt for more exclusive things, but really it&#8217;s just let&#8217;s let this community be <em>more</em> inclusive. I liked seeing people who&#8217;s experiences were similar to mine.  It&#8217;s nice to have models, not just role models up on a pedestal, but others doing what you&#8217;re doing and know what it&#8217;s like.  When you sit on the outside and you see a community that is mostly men, you wonder if it would be uncomfortable to break into it.  But, it&#8217;s not. The work is gratifying and there&#8217;s a lot of creativity and problem solving.  It&#8217;s not &#8220;masculine&#8221; or &#8220;feminine&#8221; work and that&#8217;s something that is really cool.</p>
+<p><strong>I&#8217;ve met a lot of Admins who are interested in coding. What would you say to them?</strong></p>
+<p>Go for it!  I&#8217;ve never looked back. I’m so empowered with the code that few of the architectural challenges for the CRM application scare me. Now I can deliver value in a holistic way myself. I am pushing the limits of what the system can do and what I can do. I think I’m a better Admin and Sales Operations person because I understand the thresholds—what can be done quickly and what is possible with more investment.  It’s fun to be a part of this community, too.</p>
+<p><strong>Tell me more about the Force.com developer community.</strong></p>
+<p>I have Force.com experts in my inner circle, but I don&#8217;t like to ask them because of my pride.  I find the answers I need on the Force.com <a title="Discussion Board" href="https://developer.salesforce.com/forums/#!/feedtype=RECENT&amp;criteria=ALLQUESTIONS" target="_blank">Discussion Board</a> &amp; <a title="Salesforce Stackexchange" href="http://salesforce.stackexchange.com/" target="_blank">StackExchange</a> (I&#8217;ve got 3 StackExchange items up right now), often without even asking, because someone else has already asked it and it has been answered.  At Dreamforce, I wanted to find <a title="SteveMos profile" href="https://success.salesforce.com/_ui/core/userprofile/UserProfilePage?u=0053000000235By&amp;tab=sfdc.ProfilePlatformFeed" target="_blank">Steve Molis</a> because I owe him a six-pack of beer &#8211; I&#8217;ve read a bunch of things he has answered on the <a title="Answers" href="https://success.salesforce.com/answers" target="_blank">Success Community</a>.  I have also learned a lot from reading <a title="Jeff's blog" href="http://blog.jeffdouglas.com/" target="_blank">Jeff Douglas&#8217;s blog</a>.  It&#8217;s fun because you get to learn who everyone is by reading and listening to podcasts.</p>
+<p><strong>What tips do you have for newbies starting to code?</strong></p>
+<p>If I had it to do over again, I would have spent more time in the cookbooks before I had a real project to deliver!</p>
+<p>I also wish that I had started talking to others sooner. The way I learn is to really understand everything that&#8217;s going on. I want to figure it all out myself, but I should have talked to others. I didn&#8217;t know what an IDE was, or a test class.  I needed to ask &#8220;what will I have to do?&#8221; Once I had the <a title="Tools" href="http://wiki.developerforce.com/page/Tools" target="_blank">tools</a> and had some models, I was making progress through trial and error.  I wish some one had told me all that trial and error was normal: type, think about it, look up a resource, type a little more.</p>
+<p>And finally: always, always, <em>bulkify</em> your code.</p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/ES-nXpVhsRg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/developer-relations/2014/02/women-in-tech-going-from-excel-hacker-to-force-com-developer.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/developer-relations/2014/02/women-in-tech-going-from-excel-hacker-to-force-com-developer.html</feedburner:origLink></item>
+		<item>
+		<title>The Salesforce Bulk API – Maximizing Parallelism and Throughput Performance When Integrating or Loading Large Data Volumes</title>
+		<link>http://feedproxy.google.com/~r/SforceBlog/~3/1cgZOO0XgVI/the-salesforce-bulk-api-maximizing-parallelism-and-throughput-performance-when-integrating-or-loading-large-data-volumes.html</link>
+		<comments>http://blogs.developerforce.com/engineering/2014/02/the-salesforce-bulk-api-maximizing-parallelism-and-throughput-performance-when-integrating-or-loading-large-data-volumes.html#comments</comments>
+		<pubDate>Wed, 05 Feb 2014 08:00:55 +0000</pubDate>
+		<dc:creator>Sean Regan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[architecture]]></category>
+		<category><![CDATA[Bulk]]></category>
+		<category><![CDATA[LDV]]></category>
+		<category><![CDATA[Performance]]></category>
+
+		<guid isPermaLink="false">http://25.15601</guid>
+		<description><![CDATA[<a href="http://blogs.developerforce.com/engineering/2014/02/the-salesforce-bulk-api-maximizing-parallelism-and-throughput-performance-when-integrating-or-loading-large-data-volumes.html"><img align="left" hspace="5" width="150" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1391627002/data_center_ueddm0.jpg" class="alignleft wp-post-image tfe" alt="" title="" /></a>One of the most important data loading and integration best practices is simple: When you run a Bulk API job, processing more of its batches in parallel means giving that job a higher degree of parallelism, which in turn gives your run better throughput. But what is a good degree of parallelism, and how can you architect a solution that maximizes the throughput that parallelism gives you? ]]></description>
+				<content:encoded><![CDATA[<p dir="ltr"><img class="wp-image-15781 alignright" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1391627002/data_center_ueddm0.jpg" width="150" height="150" />Data loads and integrations that perform poorly or fail altogether are among the most significant problems during salesforce.com customers’ “go-live” efforts. They can both put timelines at risk and become unimaginably expensive, especially for enterprise-scale organizations.</p>
+<p dir="ltr">If you’re a Salesforce architect or developer, you can save your organization both time and money—and get up to 20 million records into your organization per hour—when you properly plan and execute your large loads and integrations using the Bulk API. On the surface, one of the most important loading and integration best practices is simple: When you run a Bulk API job, processing more of its batches in parallel means giving that job a higher degree of parallelism, which in turn gives your run better throughput.</p>
+<h1>Mastering Parallelism to Scale Your Enterprise</h1>
+<p><a href="http://events.developerforce.com/en/events/webinars/bulk-api?d=70130000000lWwN"><img class="wp-image-16051 alignright" alt="" src="http://res.cloudinary.com/hzxejch6p/image/upload/v1392078025/parallelism-webinar-blog_lrcqs7.png" width="240" height="200" /></a></p>
+<p>But what is a good degree of parallelism, and how can you architect a solution that maximizes the throughput that parallelism gives you? Technical Enablement’s <a href="http://wiki.developerforce.com/page/The_Salesforce_Bulk_API_-_Maximizing_Parallelism_and_Throughput_Performance_When_Integrating_or_Loading_Large_Data_Volumes">newest article</a> walks you through several optimal and suboptimal test runs, which feature code samples and real-life metrics, so you can master parallelism, and improve your load and integration performance in your organization.</p>
+<p dir="ltr">After reading this article, you should be able to:</p>
+<ul>
+<li>Estimate your loads’ and integrations’ degrees of parallelism</li>
+<li>Design an integration or loading tool that gives you the best possible throughput</li>
+<li>Manage and avoid lock exceptions, both of which can significantly reduce throughput</li>
+<li>Take some concrete, actionable best practices back to your organization to scale your enterprise</li>
+</ul>
+<h1>Related Resources</h1>
+<ul>
+<li><a href="http://wiki.developerforce.com/page/The_Salesforce_Bulk_API_-_Maximizing_Parallelism_and_Throughput_Performance_When_Integrating_or_Loading_Large_Data_Volumes">The Salesforce Bulk API &#8211; Maximizing Parallelism and Throughput Performance When Integrating or Loading Large Data Volumes</a></li>
+<li><a href="http://developer.force.com/architect">Architect Core Resources</a></li>
+<li><a href="http://www.salesforce.com/us/developer/docs/apexcode/Content/langCon_apex_SOQL_VLSQ.htm">Working with Very Large SOQL Queries</a></li>
+<li><a href="http://www.salesforce.com/us/developer/docs/api_asynch/">Bulk API Developer’s Guide</a></li>
+<li><a href="http://www.salesforce.com/us/developer/docs/api_asynch/Content/asynch_api_planning_guidelines.htm">General Guidelines for Data Loads</a></li>
+<li><a href="http://blogs.developerforce.com/engineering/2013/03/long-and-short-term-approaches-for-tuning-force-com-performance.html">Long- and Short-Term Approaches for Tuning Force.com Performance</a></li>
+<li><a href="http://wiki.developerforce.com/page/Webinar:_Inside_the_Force.com_Query_Optimizer_(2013-Apr)">Inside the Force.com Query Optimizer</a></li>
+<li><a href="http://help.salesforce.com/help/pdfs/en/salesforce_query_search_optimization_developer_cheatsheet.pdf">Database Query &amp; Search Optimization Cheat Sheet</a></li>
+</ul>
+<h1>About the Author</h1>
+<p dir="ltr"><a href="https://twitter.com/SFDCSregan">Sean Regan</a> is an Architect Evangelist within the Technical Enablement team of the salesforce.com Customer-Centric Engineering group. The team’s mission is to help customers understand how to implement technically sound salesforce.com solutions. Check out all of the resources that this team maintains on the<a href="http://developer.force.com/architect"> Architect Core Resources</a> page of Developer Force.</p>
+<p>&nbsp;</p>
+<img src="http://feeds.feedburner.com/~r/SforceBlog/~4/1cgZOO0XgVI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blogs.developerforce.com/engineering/2014/02/the-salesforce-bulk-api-maximizing-parallelism-and-throughput-performance-when-integrating-or-loading-large-data-volumes.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blogs.developerforce.com/engineering/2014/02/the-salesforce-bulk-api-maximizing-parallelism-and-throughput-performance-when-integrating-or-loading-large-data-volumes.html</feedburner:origLink></item>
+	</channel>
+</rss>

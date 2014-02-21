@@ -1,0 +1,71 @@
+<apex:page controller="LookupFilter" >
+<apex:form id="frm">
+	
+	<apex:pageBlock id="main">
+	<apex:pageMessages />
+		<apex:pageblocksection >
+			<apex:pageBlocksectionItem >
+				<apex:outputPanel >
+				<table>
+				  <tr>
+				   <td>
+					<apex:outputLabel >To:</apex:outputLabel>
+				 	</td>
+					<td>
+					<apex:inputField id="mailto" value="{!objAccountChk.Contact_Email__c}" onchange="search()" style="width: 150px; height: 18px" />
+						<apex:actionfunction name="search" action="{!getEmail}" rerender="main">
+						 </apex:actionfunction><br/>
+					</td>
+				   </tr>	
+				   <tr>
+				    <td>	
+					<apex:outputLabel >To:</apex:outputLabel>
+					</td>
+					<td>
+						<apex:inputText id="toEmail" value="{!conEmail}"  onchange="validate()" size="50" />  
+				    	<!--  
+				    		<apex:actionfunction name="validate" action="{!validateEmail}" rerender="main">
+				    		</apex:actionfunction>
+				    		-->
+				    </td>	
+				    </tr>
+						
+					<tr>
+					 <td><apex:outputLabel >From: </apex:outputLabel>
+					 </td>
+					 <td>
+						<apex:inputText id="mailfrom" value="{!logedInUser.Email}" size="50"></apex:inputText> 
+					 </td>
+					 </tr>
+					 <tr>
+					 <td>	
+					<apex:outputLabel >Subject: </apex:outputLabel>
+					 </td>
+					 <td>	
+						<apex:inputText id="mailsub" value="{!mailSub}" size="50" ></apex:inputText>
+					 </td>
+					 </tr>	
+						
+					 <tr>
+					 <td>	
+					<apex:outputLabel >Message :</apex:outputLabel>
+						</td>
+						<td><apex:inputTextArea id="msgbody" value="{!mailBody}" style="width: 560px; height: 80px"></apex:inputTextArea>  
+						</td>
+					 </tr>	
+					<tr>
+					<td>
+					<apex:commandButton value="Send Message" action="{!saveMessage}"/>
+					</td>
+					<td>
+					<apex:commandButton value="Cancel" action="{!doCancel}"/>
+					</td>
+					</tr>	
+				</table>		
+				</apex:outputPanel>
+			</apex:pageBlocksectionItem>
+		</apex:pageblocksection>
+	</apex:pageBlock>
+	</apex:form>
+	
+</apex:page>
